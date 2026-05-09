@@ -16,6 +16,10 @@ convention does not apply to langsci-press book builds.
 included in the prior work; deciding whether to comment them out or
 move them is deferred until Brett audits chapter state.
 
-2026-05-09 — Public GitHub push deferred. Reason: portfolio default is
-public, and the book is CC-BY (will be public eventually), but Brett
-may want to review draft state before publishing the repo.
+2026-05-09 — Pushed to https://github.com/BrettRey/Ungrammatical
+(public). An older 2023 `BrettRey/ungrammatical` repo (two commits,
+last touched 2023-01-22, with a single `QuestionsForEricSchwitzgebel.txt`
+and an initial commit) was deleted to free the name; Brett authorised
+the destructive replacement after being shown the conflict. Reason:
+portfolio default is public, the book is CC-BY, and the 2023 repo had
+no value worth preserving as a fork.

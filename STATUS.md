@@ -24,8 +24,8 @@ Language Science Press, HPLS series. Open-access (CC-BY).
 ## Carryovers
 - Audit the chapter files for current state: which are draft-complete,
   which are partial, which are notes.
-- Decide whether to push to public GitHub (portfolio default) or keep
-  the working repo local until the draft is further along.
+- Repo pushed to https://github.com/BrettRey/Ungrammatical (public,
+  CC-BY, master branch).
 - Verify `localbibliography.bib` entries before any new drafting:
   spot-check for fabricated citations from prior LLM-assisted passes.
 - Consider whether the working-note chapters (`00 a notes.tex`,
