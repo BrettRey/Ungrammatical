@@ -1,0 +1,412 @@
+\chapter{Stories from syntactic islands} \label{sec:extraction-islands}
+In a sense, the islands were always there, hidden in plain sight. But it was Noam Chomsky who first pictured them in his mind's eye and set out to find them. Not geographical but linguistic islands, existing within our language, within our sentences. But just like geographic islands, it's tough to leave them.
+
+``Chomsky started looking for the sorts of potential movements that don’t seem to be exploited by natural languages; or, putting it in his terms, started looking for constraints that must be operating to block those non-occurring movements'' \citep[92]{Harris2021}.
+
+In 1966, John (Haj) Ross, was a 28-year-old PhD candidate in linguistics at MIT.
+
+%In linguistics, ``extraction'' refers to the process whereby a word or phrase is relocated from its typical position to appear elsewhere, often at the beginning of the sentence. For instance, if I blurted out, ``they saw it,'' without providing any context, you might ask, ``What did they see?'' or perhaps, ``They saw what?'' The second question doesn't involve extraction, but its structure is somewhat unconventional, typically used only when seeking repetition or clarification. 
+
+We don't usually think of words moving around, but compare \data{\underline{What} did they see?} with \data{They saw \underline{what}?} \data{They saw what} might sound wrong, but you could ask it if I suddenly blurted out, \textit{they saw it}, without providing any context.
+
+The important thing to notice is that the position of \data{what} has changed. The first question, the normal one, starts with \data{what}, but in a sense \data{what}'s location in the second question, at the end, is its natural home. We say, \data{I see it}, not \data{it I see}. First comes a verb (\data{see}), then the thing seen. So, we could think about \data{what} leaving its natural position after \data{see} and appearing instead at the beginning of the sentence. This becomes more apparent when the sentences are displayed one below the other, as in (\ref{ex:extraction-intro}).
+
+\ea
+\label{ex:extraction-intro}
+\ea [] {
+    \data{They saw \underline{it}.}
+    }
+\ex [] {
+    \data{They saw \underline{what}?}
+    }
+\ex [] {
+    \data{\underline{What} did they see \underline{~~~}?}\\
+    %\begin{tikzpicture}[overlay]
+    %    \node[align=left,inner sep=0] (text) {\phantom{What did they see ~~~?}};
+    %    \begin{scope}[x={(text.south east)},y={(text.north west)}]
+    %        \draw[->,red,very thick] (5.7,3) to [bend left=60]  (4.2,3);
+    %    \end{scope}
+    %\end{tikzpicture}
+    }
+\z\z
+
+In (\ref{ex:extraction-intro}c), the ``\underline{~~~}'' shows the position that \data{what} left. And here's where Ross's curious islands come in. Consider \data{She doubted the idea \textbf{that they had seen \underline{it}}}. The text in bold is a syntactic island, and, because it's an island, \data{what} is trapped there. The syntax hits a wall when it tries to leave, and we get the wonderfully strange question in (\ref{ex:island-intro}c).
+
+\ea
+\label{ex:island-intro}
+\ea [] {
+    \data{She doubted the idea \textbf{that they had seen \underline{it}}.}
+    }
+\ex [] {
+    \data{She doubted the idea \textbf{that they had seen \underline{what}}?}
+    }
+\ex [*] {
+    \data{\underline{What} did she doubt the idea \textbf{that they had seen \underline{~~~}}?}
+    }
+\z\z
+
+Upon reaching \data{the idea} in this sentence, we stumble as the thread of the sentence starts to unravel. We may read on, hoping that a solution will present itself. We may go back and check if we'd misread it, but at some point, we conclude that this sentence is just ungrammatical. The syntax is snarled. It doesn't work.\footnote{When linguists provide examples they've judged to be ungrammatical, they mark them with a~* as in (\ref{ex:extraction-intro}c). A raised question mark in that spot suggests uncertainty about the sentence's grammaticality. It's important to note that these judgments aren't universally agreed upon.\\By the way, this is the only footnote in this book.} Not only is it ungrammatical, but it's hard to fathom what it could possibly mean.
+
+This isn't a typical encounter with an ungrammatical sentence like \textit{How many people was there?} or {She went school.}. Often, we understand them intuitively and can even conjure a quick correction without much thought. But even a good deal of thought may not help us with (\ref{ex:island-intro}c).
+
+Yet, whether we're dealing with artificially constructed linguistic oddities like this one, or grappling with commonplace grammatical errors, we innately sense what is grammatical and what isn't. This book embarks on a journey to uncover the foundation of that intuition. It seeks to answer a simple yet profound question: How do we distinguish between what's grammatical and what is not?
+
+\section{What is grammar/what grammar is}
+
+If we default to thinking about grammar when communication comes up, we risk missing a good deal. A look, a wagging tail, the smell of smoke, the distance we keep, a musical crescendo, the cadence of a heartbeat -- each communicates something to the us as ``meaning seeking animals'' \citep[436]{Geertz1957} -- but none has a grammar. Signals like these often embody ambiguity, and we mostly lack conventional ways to recombine them to produce other meanings.
+
+Compare this, though, to the subtle difference between \textit{what is grammar} and \textit{what grammar is}. One conveys a question, the other an answer. The effect of this slight variation is the epitome of grammar.
+
+Grammar is a conventional system linking what is said to what is meant. The linkage goes both ways, connection form to meaning and meaning to form, or maybe connecting both form and meaning to some other representation \citep[371]{Futrell2020}.
+
+This is, in fact, clearly the meaning of \textit{ungrammatical} in its first known use.
+
+\begin{quote}
+    It seems a great folly to declaim against us for denying the literal, natural sense, and yet that themselves should expound it in a sense which suffers a violence and a most unnatural, \uline{ungrammatical} torture; for if they may change the words from the right sense and case to the oblique and indirect, why may not we?\hfill\citep{taylor1654real}
+\end{quote}
+
+Jeremy Taylor was born in 1613. Nothing at all is known of his mother, but his father was a barber. As a barber, he would have been something of a surgeon, and the son writes that his father was able to instruct his children in grammar and mathematics, suggesting a good level of education \citep[28]{worley_jeremy_taylor_1904}. 
+
+Knowledge of grammar doesn't mean merely that the senior Taylor helped his son understand subject-verb agreement, pronoun use, and how to form relative clauses. A grammatical education also implied the study of Latin and sometimes Greek, reflecting the Renaissance curriculum's heavy emphasis on classical languages. These languages were not only key to accessing a vast body of important religious, philosophical, and scientific texts but were also considered essential for any scholarly or clerical career. Additionally, grammar teaching often involved the arts of rhetoric and logic, seen as fundamental to effective communication and reasoning. \textit{Grammar} meant a whole lot more than it does today.
+
+But even in today's understanding as the form and structure of language, the study of grammar held much greater social importance than it does today. It's only a small exaggeration to say that if you were an educator, philosopher, clergyman, or scientist, a printer, a publisher, a politician, or even a pub owner, you might have written a grammar. 
+
+The American Quaker grammarian Goold \citet{brown_grammar_grammars}, in his massive \textit{Grammar of English grammars}, an expansive survey of English grammatical structure and a critical review of numerous grammatical works that preceded it, lists almost 500 grammars, roughly two a year since 1586, when the printer William Bullokar composed, printed, and published the first grammar of English, mainly as a business venture.
+
+\bigskip
+
+One notable figure in this history was Ann Fisher, whose \textit{A new grammar} (1745) was the first written by a woman. Fisher was a pioneering educator who ran a successful school for young ladies in Newcastle. Her grammar was innovative in its focus on practical language use and its attempt to make grammar accessible to a wider audience without dealing with Latin or Greek.
+
+Fisher's grammar was both well regarded and popular, going through at least 31 editions. Brown, for example, acknowledges its influence on his own work, while appearing to believe Fisher to be a man (``Fisher also rejected the class of neuter verbs, and called them all active. \uline{He} reduces the moods to three'' \citep[138]{brown_grammar_grammars}. Initially, Ann Fisher published without attribution, conscious that her gender could limit its appeal, but as her celebrity grew, her name adorned the title page for all to see. Her success seems to have inspired other women to enter the field. By the late 18th century, at least six more women grammarians emerged: Ellin Devis, Mrs. M.C. Edwards, Lady Eleanor Fenn, Jane Gardiner, Blanch Mercy, and Mrs. Eves.
+
+The most popular of their published books seems to have been the one by Devis, who, like Fisher, was an educator and proprietor of a school for girls. And, like Fisher's pioneering grammar, Devis's 1775 book also proved extremely popular, going through at least 18 editions. It was called \textit{The Accidence or First Rudiments of English Grammar Designed for the use of Young Ladies}. The trend in book titles at the time was very much to use the title to explain, in detail, what the book was about. Fisher's book's full title, as given on its title page, is over 130 words long. 
+
+Not only did she break ground for women, but Fisher also first formulated the controversial rule promoting the use of the masculine singular pronoun \textit{he} to refer to both genders \citep{Tieken-Boon}. She wrote, ``The Maſculine Perſon anſwers to the general Name, which comprehends both Male and Female; as, any \textit{Perſon who knows what he ſays}, \&c.'' \citep[106]{Fisher1785}.
+
+From a modern perspective, it may seem surprising that a path-blazing woman would propose such a rule. But no sooner had it been published than it was plagiarized by a man. John Kirkby was an educator and perhaps a serial plagiarist who ran a school and was, despite his plagiaristic tendencies, well regarded. Joseph Priestly -- better known for his work in chemistry and physics -- was Kirkby's student before publishing his own grammar in 1761. 
+
+It was not until the eighteenth century's end that the frequent plagiarism by early grammarians came to be seen as a genuine offence, largely because of the new conceptions of originality among the Romantic poets. Once it did though, plagiarism became a common accusation in the world of grammars, and let us be clear: there was good money to be made.
+
+In 1758, Robert Lowth, a prominent clergyman and grammarian, published his \textit{Short introduction to English grammar}. It started life as a book for his four-year-old son, and went on to become a standard text in schools. ``Lowth's name consequently acquired almost mythical status, as the bishop who single‐handedly reduced the English language to rule, and to whom we still owe many linguistic strictures, which are generally experienced as unnecessarily constraining'' \citep[1]{Ostade2011a}. Due to is popularity, it was both plagiarized and pirated outright.
+
+Though, in the 17th and 18th centuries, writing a grammar was a strangely common way to signal that one was erudite, it was no guarantee of actual erudition. Goold Brown, in his survey or grammars was scathing on this point.
+
+\begin{quote}
+    While some have thus wasted their energies in eccentric flights, vainly supposing that the learning of ages would give place to their whimsical theories; others, with more success, not better deserved, have multiplied grammars almost innumerably, by abridging or modifying the books they had used in childhood. So that they who are at all acquainted with the origin and character of the various compends thus introduced into our schools, cannot but desire to see them all displaced by some abler and better work, more honourable to its author and more useful to the public, more intelligible to students and more helpful to teachers. Books professedly published for the advancement of knowledge, are very frequently to be reckoned, among its greatest impediments; for the interests of learning are no less injured by whimsical doctrines, than the rights of authorship by plagiarism. Too many of our grammars, profitable only to their makers and venders, are like weights attached to the heels of Hermes. \\ \phantom{xxx}\hfill \citep[35]{brown_grammar_grammars}
+\end{quote}
+
+Nor is Brown reluctant to name names. Among his list of grammars, he includes occasional snipes, such as ``an egregious plagiarism,'' ``a miserable jumble,'', ``of no value,'' ``not worth a pin,'' ``a mere trifle,'' ``a sham,'' ``worthless,'' and ``fudge!'' But along with trenchant observations like ``this author can see others' faults better than his own,'' Brown also had words of praise. Of Frederick Barnard's 1836 \textit{Analytic grammar; with symbolic illustration}, for instance, he wrote, ``this is a curious work, and remarkably well-written.''
+
+Lowth's grammar was both the target of plagiarists and of accusations of plagiarism. In his own grammar, Noah Webster, author of \textit{An American dictionary of the English language}, wrote, ``since the days of \textit{Wallis}, who published a Grammar of the English Language, in Latin, in the reign of Charles II.[,] from which Johnson and Lowth borrowed most of their rules, \textit{little improvement} has been made in English grammar'' (cited in Brown).
+
+Lowth is also notable for being the first to base his grammar around the ``false syntax'' of published examples. He very confidently critiqued the grammar of the most eminent writers of the time: Shakespeare, Swift, Milton, Addison, and Pope. Even the King James Bible came in for criticism. And the basis of Lowth's accusations of false syntax, or forms that a modern Lowth might characterize as ``ungrammatical'', was Latin grammar.
+
+\bigskip
+
+As for Jeremy Taylor, the first person to us \textit{ungrammatical} in English, he seems to have been a precocious child, entering school at age 3. 
+
+, he became a chaplain to King Charles I and later served as Bishop of Down and Connor in Ireland. He was known for his eloquent and learned writings on theology, morality, and spirituality.
+
+Taylor's life and work were deeply affected by the political and religious upheavals of his time. As a staunch Royalist and Anglican, he found himself on the losing side of the English Civil War. After the execution of Charles I in 1649, Taylor was briefly imprisoned and his library was confiscated.
+
+Despite these hardships, Taylor continued to write and preach. His most famous work, \textit{The Rule and Exercises of Holy Living} (1650) and \textit{The Rule and Exercises of Holy Dying} (1651), became spiritual classics and influenced generations of Anglican believers.
+
+In the passage quoted above, we see Taylor bringing his formidable intellect and rhetorical skill to bear on a question of biblical interpretation. He accuses his opponents of twisting the grammar of a Latin phrase to suit their own purposes - an ``ungrammatical torture," as he puts it.
+
+So when Taylor uses the term \textsc{ungrammatical}, he doesn't mean that the sentence as written is malformed, but rather that a particular reading of it fails to attribute to the form its usual meaning.
+
+This early use of \textit{ungrammatical} is significant because it shows that the concept of grammaticality -- the idea that there are rules and conventions governing the structure of language -- has been part of the English linguistic consciousness for centuries.
+
+Interestingly, Taylor's use of the term here is somewhat different from how we might use it today. In modern linguistics, \textit{ungrammatical} typically refers to a sentence or phrase that fails to conform to the constraints. For example, \textit{even you wanted to, you couldn't} is ungrammatical because it lacks the \textit{if} that both marks the first clause as the protasis in a conditional and also allows attachment to the main clause \textit{you couldn't}.
+
+But in this first instance, Taylor used \textit{ungrammatical} to mean something more like `contrary to the usual or expected interpretation of that form'. His concern is not so much with the form of the words themselves, but with how the form contributes to the meaning.
+
+This suggests that the concept of grammaticality has evolved over time. In Taylor's day, grammar was often thought of as a set of rules for interpreting and using language correctly. Today, we tend to see grammar more as a description of the inherent structural patterns of a language.
+
+Despite this difference, Taylor's use of \textit{ungrammatical} demonstrates a keen awareness of the importance of grammar in shaping meaning. He recognizes that the way words are put together - their grammatical form - is crucial to conveying the intended message.
+
+This insight is at the heart of the modern linguistic understanding of grammaticality. The rules of grammar, whether prescriptive or descriptive, are what allow us to communicate complex ideas with clarity and precision. When those rules are violated, either accidentally or intentionally, it can lead to confusion, ambiguity, or even a complete breakdown in communication.
+
+So while Taylor's use of \textit{ungrammatical} may be different from ours in some respects, it nonetheless reflects a fundamental truth about language: grammar matters. The structure and form of our words is not just a mundane aspect of communication, but a powerful tool for conveying meaning. As such, the concept of grammaticality is central to any serious study or use of language.
+
+\bigskip
+
+Fisher had one more innovation. Hers was the first grammar to be published ``with Exerciſes or Examples of bad English.'' What qualified as ``bad English'' was expressions such as \textit{Plumbs is eaten}, \textit{This Men are exceeding wiſe}, \textit{Them Fellows always ſtand by one another}, \textit{Thou art the moſt wiſeſt Boy I ever ſaw}, and \textit{There is no Body ſo weak of Invention, which cannot aggravate or make ſome little Stories to vilify his Enemy; and there is few but has good inclinations to hear them.} Often these seem to be targeting forms occurring in the vernacular speech of lower-class speakers at the time.
+
+On the one hand, this is to be expected. Often what grammar teachers were doing was akin to teaching English as a second dialect. On the other hand, it could be interpreted as going against her stated idea of what grammar is. Her book begins by defining \textit{grammar} as ``the Art of expreſſing the Relation of Things in Conſtruction \dots according to the Cuſtom of thoſe whoſe Language we learn'' \citep[1]{Fisher1785}, and admirable definition. Presumably those speaking the lower-class vernacular spoke it according to the custom of their parents and peers. Perhaps, the divergence is in the idea of whose language it is. Could Fisher have felt that English belonged to the upper classes?
+
+The book includes the word \textit{ungrammatical}, but only in a list of five-syllable words. She does, however use \textit{grammatically}.
+
+\begin{quote}
+    \textit{T\textsc{he} Parts of Speech}, or \textit{Kinds} of \textit{Words}, which conſitute any one \textit{Language}, are the ſame in all others, i.e. whatever Words are \textit{Names}, or \textit{Noun Subſtantives}, \textit{Verbs}, \&c. in \textit{English}, are the ſame in \textit{Greek}, \textit{Latin}, \textit{French}, \&c. though expreſſed by different Terms ; alſo ſome general Rules of Grammar are univerſally applied to all Tongues. A Perſon, therefore, who understands \textit{English} \uline{grammatically}, must be allowed to have a good Notion of Grammar in general, i. e. that of every other Nation.\hfill \citep[iv]{Fisher1785}
+\end{quote}
+
+\begin{quote}
+    \textit{I\textsc{f}} to be Maſter of any Language, ſo as to write it with \textit{Propriety} and \textit{Exactneſs}, is to understand it \textit{\uline{grammatically}}; it must certainly be a \textit{nearer} or \textit{more conciſe} \textit{Way} to the Perfection of ours to learn the \textit{English Grammar itſelf}, than to go about to learn the \textit{Latin one}, \&c. merely to come at the Knowledge of our own from the Nature of theirs.\hfill \citep[vii]{Fisher1785}
+\end{quote}
+
+\begin{quote}
+    It is impoſſible for any one to ſpeak and write correctly who is unacquainted with Syntax, or has not learned the Language in a grammatical Way.\hfill\citep[xii]{Fisher1785}
+\end{quote}
+
+In each case, her meaning is not `in a way that respects the structure of the language' as in ``that's a grammatical sentence'' but rather `in a way that relies on explicit knowledge of the rules of grammar,' as in ``I can explain the sentence grammatically but not historically.''
+
+\section{Explanations}
+
+It's crucial to realize that syntactic islands don't crop up all that often. It's not just a matter of adding in a few extra bits and you've got an island. Consider (\ref{ex:non-island}), where \data{what} has no problem leaving its home spot and appearing at the front.
+
+\ea
+\label{ex:non-island}
+\ea [] {
+    \data{She doubted that I had seen \underline{it}.}
+    }
+\ex [] {
+    \data{She doubted that I had seen \underline{what}?}
+    }
+\ex [] {
+    \data{\underline{What} did she doubt that I had seen \underline{~~~}?}
+    }
+\z\z
+
+And we can keep adding on without tripping up.
+
+\ea
+\label{ex:non-island-deep}
+\ea [] {
+    \data{She doubted that I had heard that you had seen \underline{it}.}
+    }
+\ex [] {
+    \data{She doubted that I had heard that you had seen \underline{what}?}
+    }
+\ex [] {
+    \data{\underline{What} did she doubt that I had heard that you had seen \underline{~~~}?}
+    }
+\z\z
+
+So, you can see that, even though these islands were right under our noses all the time, finding them wasn't a simple task. Chomsky and Ross had discovered something new and interesting, something that cried out for an explanation. Their discovery of syntactic islands and the restrictions they impose on the words inside them forms a cornerstone of modern linguistic theory. We'll explore these island in more detail in Chapter \ref{ch:island}, but here I'd like to think about what kind of explanation we might be happy with.\footnote{As we explore the phenomenon of syntactic islands, it's important to note that recent research has suggested that discourse-based constraints may also play a significant role in limiting long-distance dependencies, as seen in filler-gap constructions. Winckel et al. (2025) present evidence from both English and French that challenges purely syntactic explanations. We will take up this cross-linguistic perspective in more detail in Chapter 15 ``What's ungrammatical''.}
+
+
+
+All fields of study face questions that call for explanation:
+
+    \textbf{Mathematics - The axiomatic system:} Why are certain mathematical equations correct and why others are not?
+
+    \textbf{Physics - Quantum Entanglement:} How can two particles become entangled, allowing them to share information instantaneously across vast distances, seemingly defying the constraints of classical physics?
+
+    \textbf{Biology - Migration Patterns:} How do various animal species use environmental cues and internal processes to guide their long-distance journeys?
+
+    \textbf{Psychology - Dreaming:} Why do we dream, and what purpose does dreaming serve in our cognitive and emotional well-being?
+    
+    \textbf{Music Theory - The Emotional Impact of Music:} Why do certain combinations of sounds and musical structures evoke specific emotional responses in listeners?
+
+    \textbf{Psychology - The Placebo Effect:} Why do individuals experience real improvements in their symptoms after receiving an inert treatment?
+
+    \textbf{Sociology - Conformity:} Why do individuals adjust their beliefs, attitudes, and behaviors to align with those of a group or social norm?
+
+    \textbf{Economics - The Wealth of Nations:} Why do some countries achieve economic prosperity while others struggle with poverty, and what factors determine the distribution of wealth among nations?
+
+
+Just like researchers in those other fields dealing with their problems, linguists construct theories to account for puzzles like these. In this case, a good theory of syntactic islands would have the following properties:
+
+\begin{enumerate}
+\item \textbf{Generality:} The explanation should apply to a wide range of syntactic islands, not just specific cases.
+\item \textbf{Cross-linguistic validity:} The explanation should account for island constraints observed in different languages, even if the constraints might vary across languages.
+\item \textbf{Predictive power:} The explanation should be able to predict novel island constraints, allowing researchers to test its validity against new data.
+\item \textbf{Simplicity:} The explanation should be parsimonious, relying on a minimal set of assumptions and principles.
+\end{enumerate}
+
+
+
+\section{The Tristan chord and acceptance} \label{sec:tristan}
+In 1865, Richard Wagner debuted his opera, ``Tristan und Isolde,'' and with it, the Tristan Chord. This chord, F, B, D♯, and G♯, the only chord named after an opera, made no sense to audiences. Rather than serving as a stepping stone towards a resolution, it seemed to exist in its own space, creating an unfulfilled tension. Hector Berlioz, renowned as an experimental musical pioneer, was the recipient of the first copy of the score from Wagner. Yet, even he found the Prelude confounding, noting, ``There is no theme other than a kind of chromatic moan, filled with dissonant chords whose long appoggiaturas in place of the true harmonic note further intensify the painfulness.'' % https://thelistenersclub.com/2020/06/08/wagners-tristan-und-isolde-prelude-and-liebestod/
+
+But even though it made no sense in the framework of musical harmony, some people were able to find a kind of narrative sense in it. For them, that unfulfilled tension mirrored the opera's story of unrequited love. And, as a result, this innovative use of (dis)harmony disrupted the conventions of Western music. Wagner's composition didn't just utilize the existing musical language - it expanded it, challenging the ear and setting the stage for the even more radical departures from tonality that the 20th century would bring.
+
+Herbie Hancock tells the following story:\footnote{https://www.youtube.com/watch?v=FL4LxrN-iyw}
+
+\begin{quote}
+    I remember that we were playing \textit{So what}, one of Miles's compositions, you know, late '50s I guess. And Tony Williams was playing drums, Ron Carter bass, Wayne Shorter saxophone. It was a really hot night. The music was tight, powerful, innovative, and fun. We were having a lot of fun, and the music was \textit{on}. Tony Williams was bringing it on his drums.
+    
+    So, right in the middle of Miles's solo, when he was playing one of his amazing solos, and I'm trying, you know, I'm in there, and I'm playing right in the middle of his solo, I played the wrong chord. A chord that just sounded completely wrong. It sounded like a big mistake. 
+    
+    And I did this, and I went like this. I put my hands around my ears, and Miles paused for a second, and then he played some notes that made my chord right. He made it correct, which astounded me. I was, I couldn't believe what I heard. Miles was able to make something that was wrong into something that was right with the power of his choice of notes that he made and that feeling that he had. 
+    
+    And so, I couldn't play for about a minute. I couldn't even touch the piano, you know. But what I realize now is that Miles didn't hear it as a mistake. He heard it as something that happened, just an event, and so that was part of the reality of what was happening at that moment, and he dealt with it. He found something that, since he didn't hear it as a mistake, he felt it was his responsibility to find something that fit, and he was able to do that.
+\end{quote}
+
+Some linguists would argue that *\data{\underline{What} did she doubt the idea \textbf{that I had seen \underline{~~~}}?} is ungrammatical in English in the same way that $2+2=3$ is incorrect in arithmetic. Others, though, would argue that the ungrammaticality is much more akin to the way the ``Tristan Chord'' was experienced when audiences first heard Wagner's Tristan and Isolde.
+
+Linguists who view the ungrammaticality of the sentence as akin to the incorrectness of $2+2=3$ in arithmetic typically believe that there are inherent and universal grammatical rules governing language structure, and any deviation from these rules results in ungrammaticality.
+
+On the other hand, linguists who liken the ungrammaticality to the initial dissonance experienced with the ``Tristan Chord'' often argue that no such universal grammatical rules exist. Rather there are ways that specific linguistic communities speak (or write or sign), and that, just as the Tristan Chord was initially perceived as dissonant but later became accepted and appreciated, the ungrammaticality of the sentence might be seen as a deviation from conventional linguistic norms that could potentially change or be accepted over time.
+
+This perspective suggests that ungrammaticality might be more fluid and more context-dependent than previously thought, emphasizing the importance of considering the social, cognitive, and pragmatic factors that shape linguistic behavior and competence.
+
+\section{More than one meaning}
+A string of words can have more than one structure, and so it can have more than one meaning. For example, the sentence \textit{The farmer sold his prized bull with a tear in his eye} can be understood in two different ways, both illustrated in Figure \ref{fig:cowPP}.
+
+The structure at play is \textit{with a tear in his eye}. \textit{With} is a preposition, and \textit{with a tear in his eye} is a \textsc{preposition phrase} (a PP). The ambiguity in the sentence comes from whether the preposition phrase attaches to the verb phrase headed by \textit{sold}, so that it was with a tear in his eye that he sold the bull, the image on the left, or whether it attached to the noun phrase headed by \textit{bull}, resulting in the image on the right.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{figures/cow.png}
+    \caption{The farmer sold his prized bull with a tear in his eye. Image by DALL$\cdot$E.}
+    \label{fig:cowPP}
+\end{figure}
+
+Linguists use a graph called a \textsc{syntax tree} to depicts these kinds of structural relationships. The one for selling tearfully is Figure \ref{tree:tearful-farmer}. Starting at the top, it shows that the whole sentence is a clause, and this clause has two main parts: the subject on the left (the noun phrase (NP) \textit{the farmer}) and the head verb phrase (VP) on the right. The PP functions as a modifier in the VP in this interpretation.
+
+\begin{figure}
+    \centering
+    \begin{forest}
+        where n children=0{% for each terminal node
+           font=\itshape, 			% italics
+            tier=word          			% align at the "word" tier (bottom)
+          }{%								% no false conditions, so empty
+          },
+        [Clause
+        	[\Node{Subject}{NP}[the farmer,roof]]
+        	[\Head{VP}
+        		[\Head{VP}[sold his prized bull,roof]]
+        		[\Node{Modifier}{PP}[with a tear in his eye,roof]]
+        	]
+        ]
+    \end{forest}
+    \caption{The structure showing the PP attached in the VP with the tearful farmer interpretation.}
+    \label{tree:tearful-farmer}
+\end{figure}
+
+
+The tree for the tearful bull is Figure \ref{tree:tearful-cow}. Again, the clause has two main parts, but this time, the \textit{with a tear in his eye} PP is tucked inside the \textit{bull} NP. The triangles show that some structural details have been omitted for simplicity.
+
+\begin{figure}
+    \centering
+    \begin{forest}
+        where n children=0{% for each terminal node
+           font=\itshape, 			% italics
+            tier=word          			% align at the "word" tier (bottom)
+          }{%								% no false conditions, so empty
+          },
+        [Clause
+        	[\Node{Subject}{NP}[the farmer,roof]]
+        	[\Head{VP}
+        		[\Head{V}[sold]]
+        		[\Node{Obj}{NP}[his prized bull with a tear in his eye,roof]]
+        	]
+        ]
+    \end{forest}
+    \caption{The structure showing the PP attached in the NP with the tearful bull interpretation.}
+    \label{tree:tearful-cow}
+\end{figure}
+
+\newpage
+
+\section{The Model of Grammaticality}\label{sec:model-of-grammaticality}
+
+\subsection{What's a construction?}
+
+Language is not just a collection of individual words, and it's not just the words that hold meaning. Consider phrases like \textit{come here}, \textit{think about it}, or \textit{don't touch that}. The form conveys something more than the sum of the word meanings. Try to take a step back and see it in a new light.
+
+First of all, did you notice that the phrases address `you'. If English had evolved a little differently, perhaps \textit{think about it} could mean `we think about it', `she thinks about it', or `they think about it'. In fact, in Japanese, the word-for-word translation often means `I'll think about it'. But not in English.
+
+The word \textit{you} is absent and yet the directive is aimed at the person being spoken to. It is the form -- the grammatical structure itself -- that says `you', and even a slightly different structure -- \textit{to think about it} or \textit{thinks about it} -- means something different.
+
+Secondly, I called it a directive, and it absolutely is. This may seem obvious, but the phrase means both `I want you to do this' and, at the same time, means `I believe that our social and contextual relationship is such that I can reasonably expect you to comply'. It includes an element of compulsion.
+
+The form of \textit{think about it} didn't have to convey a directive. It's close to a request, but not quite. It could, perhaps, have been a declaration, an exclamation, or a question. It could even have been a conditional = `if you think about it'.
+
+I hope this seems rather implausible to you. I hope you wonder how \textit{think about it} could possibly be conditional. I even hope you think the notion is utterly preposterous. Because, not only could it convey conditionality, but it does: \textit{think about it and you'll see what I mean} (= `\uline{if you think about it}, you'll see what I mean').
+
+When linguists speak about \textsc{constructions}, this is what they have in mind: not just some kind of grammatical structure but one that means something, a form--meaning pairing.
+
+\bigskip
+
+Consider the age construction: \textit{I'm 55}, \textit{she's nine}, \textit{it's 112}. These don't indicate height or girth or any kind of rating. They convey ages, specifically ages in years, and everybody knows that. If you wanted to count some other period of time, you'd have to say so (\textit{she's nine months}). And yet, if it's years you almost have to omit the unit -- \textsuperscript{?}\textit{I'm 55 years} is kinda weird. Of course, it gets much better if you append \textit{old}. Conversely, if I wanted to say my age in French, \textit{ans} `years' is obligatory. I would say \textit{j'ai 55 ans}, literally, `I have 55 years'. 
+
+That brings up another issue: a Francophone couldn't state her age in English by directly translating the French as *\textit{I have 55} or even *\textit{I have 55 years}. In context, the meaning might be clear, but the statement is ungrammatical. It's not that the form is impossible -- if I ask, \textit{How many students do you have in your class}, then \textit{I have 55} is a perfectly grammatical response. The problem is that the form \textit{I have 55} doesn't mean `I'm stating my age'. It means something else, and if you want to convey your age, then you need to use the age construction, a specific form--meaning pairing.
+
+\bigskip
+
+Or consider the difference between \textit{how beautiful is she?} and \textit{how beautiful she is!} Structurally, all we've done here is swapped the order of \textit{she} and \textit{is}, but emotionally, we've gone from flat to infatuated.
+
+\bigskip
+
+A construction is much more than just grammar in the old-school sense. It's a little package deal -- a specific arrangement of words, their forms (like verb tenses or plurals), and even the way they're spoken, all bundled up with a specific meaning. That meaning can be straightforward, like a simple request for information, or it can be layered with subtle things like social cues (\textit{come here}) or emotion (\textit{how beautiful she is}).
+
+\subsection{An analogy}
+
+Many people believe that grammaticality is like the rule that stops play in soccer when the ball goes out. In other words, they believe that something is either in bounds or out. But if we're analogizing to the realm of soccer, then grammaticality is more like the handball rule, with its nuanced application and interpretation.
+
+The handball rule, at its core, forbids players from using their hands or arms to influence the play of the ball, making an allowance for goalkeepers within their own penalty area. This illustrates the role of context in applying rules. Think about how an expression like \textit{you guys} might be acceptable in casual conversation but not in formal writing, or how the word \textit{y'all} signals a specific regions or social groups. The goalkeeper's unique privilege within the goal area, and its absence outside it, underscores the power of context in determining what is -- and isn't -- acceptable within the game.
+
+That contextual variation leads to new situations, which, in turn, lead to evolution, in language and soccer. Soccer's rules are not immutable, and today's handball rule is worlds apart from its earliest incarnation. The laws of the game are continually shaped by reinterpretations, adjustments, gameplay dynamics, and technologies like Video Assistant Referee. Language, too, shifts and morphs over time. Constructions evolve through usage, reanalysis, and shifting perceptions of what's acceptable, cool, or unfashionable, steered by communal usage and perception.
+
+As the game evolves, so too does the spectrum of possible referee responses to potential handball infractions from ``play on'' to a red card. Similarly, language users and linguists assess grammaticality on a spectrum. A minor deviation, like a slightly misplaced preposition, might pass unnoticed, while a stark violation of established form-meaning pairings, such as a wrong verb form, might be judged harshly. Importantly, the acceptability of a construction or a handball isn't determined by a single factor.
+
+This spectrum of considerations characterizes judgments of grammaticality. A referee considers whether a handball was the result of a deliberate arm movement or the ball striking a passive arm, and linguists and language users evaluate whether a given construction aligns with or diverges from expected form-meaning pairings. In both cases, misinterpretations, processing limitations, and the demands of rapid, real-time decision-making introduce challenges,  highlighting the role of human cognition and perception in rule interpretation.
+
+Similarly, grammatical constructions can be misjudged due to perception or processing limitations. A listener might misinterpret a complex sentence, like referees may incorrectly call or miss a handball incident due to the fast pace of the game or an obstructed view. These instances reflect human limitations in processing complex, dynamic situations.
+
+Linguistic constructions are reanalyzed for various motivations -- semantic, social, or structural -- a continual process that mirrors the constant discussions and reinterpretations of handball rules in soccer. The game evolves with these reinterpretations, paralleling language's adaptability and flexibility.
+
+In both domains, rules serve as the framework within which the game unfolds, shaped by a blend of human convention, practicalities, and the immutable laws of physics.
+
+\subsection{The model}
+
+\begin{enumerate}
+    \item At its most basic, a grammatical construction is one with an accepted form–meaning pairing within a specific language community, dialect, register, or situation.
+    \item The meaning element has a semantic component and often includes a socio-pragmatic aspect. \\(e.g., \textit{Try it and you'll regret it.} conveys a threat)
+    \item A grammatical construction may evolve additional accepted form–meaning pairings through misinterpretation or reanalysis of existing constructions. \\(e.g., the \textit{going to} futurate)
+    \item Conversely, grammatical constructions may fall out of favour, becoming ungrammatical as they are socially deprecated. \\(e.g., the simple past tense in Standard spoken French)
+    \item Grammaticality within a language community reflects what distinctions the community considers relevant to encode.\\(e.g., the progressive aspect is mandatory in certain contexts in English but not in French; evidentiality is mandatory in certain contexts in Turkish but not in English.)
+    \item Grammaticality is not required for meaning. Many ungrammatical constructions convey their intended meaning perfectly. \\(e.g., *\textit{It very good.})
+    \item A construction is considered ungrammatical when:
+    \begin{enumerate}
+        \item The form fails to pair with any meaning. \\(e.g., *\textit{Can the have running?})\\ Note that this is not the same as pairing with an intentionally bizarre or nonsensical meaning, especially one stemming from incongruent lexical choices. Such a pairing can still be grammatical.
+        \item The intended form-meaning pairing clashes because
+        \begin{enumerate}
+            \item A divergence is perceived between intended and expected meanings \\(e.g., *\textit{I have 35 years.} intended as `I am 35 years old.')
+            \item A contradictory form-meaning pairings occurs in the same utterance \\(e.g., *\textit{I have been there yesterday.})
+        \end{enumerate}
+        \item A particular form-meaning pair is generally or potentially appropriate but an alternate form is preferred in a specific case, and no compelling reason justifies the deviation. \\(e.g., *\textit{We sheared three sheeps.})
+        \item It's exceedingly rare, either because it's coming into or going out of fashion, or because the right conditions for a particular form-meaning pair make . (e.g., syntactic satiation; \cite{Snyder2022})
+    \end{enumerate}
+    \item A grammatical construction can be wrongly judged ungrammatical when:
+    \begin{enumerate}
+        \item the structure is misperceived \\(e.g., \textit{The old man the phones.} intended as `The elderly are responsible for handling the phones.')
+        \item processing capabilities are exceeded by structural demands. \\(e.g., \textit{The bread the baker the apprentice helped made is delicious.})
+    \end{enumerate}
+    \item An ungrammatical construction can be wrongly judged grammatical when processing capabilities are exceeded by semantic demands. \\(e.g., *\textit{In Michigan and Minnesota, more people found Mr Bush's ads negative than they did Mr Kerry's.})
+    \item Motivations for accommodating or reanalyzing ungrammatical constructions as grammatical include:
+    \begin{enumerate}
+        \item Semantic motivations, such as metaphorical usage for novel meanings.
+        \item Social motivations reflecting identity or status.
+        \item Structural motivations due to
+        \begin{enumerate}
+            \item processing constraints \\(e.g., length, embedding, long dependency distances)
+            \item lack of clarity \\(e.g., after loss of inflectional endings, Jespersen's cycle, etc.)
+            \item structural analogy \\(e.g., \textsuperscript{?}\textit{I asked about what did she do.})
+        \end{enumerate}
+        \item Iconic usage in rare instances \\(e.g., trilled /r/)
+    \end{enumerate}
+    \item While most ungrammaticality involves form-meaning pairings that could potentially be reanalyzed through exposure, a small set of constructions (like the Left Branch Condition) involve operations that disrupt the basic structural integrity of the linguistic unit being manipulated. These constructions are impossible to grammaticalize, as evidenced by their complete resistance to satiation, even while formally similar constructions become more acceptable.
+    \item Grammaticality judgments always involve syntax or morphology.
+    \item Despite the focus on syntax and morphology, form-meaning mismatches may involve lexical or phonological elements, including intonation and prosody. \\(e.g., *\textit{Each con\textbf{tract} is different}, with stress on the second syllable as in the verb; perhaps malapropisms like *\textit{This library is a great suppository of knowledge.})
+    \item Differing reasons for ungrammaticality and amount of difficulty establishing a clear form-meaning pairing may result in a range in the severity of grammaticality judgments.
+\end{enumerate}
+
+\subsection{Architectural Constraints and Syntactic Inviolability}
+Certain syntactic constraints resist adaptation or grammaticalization due to their basis in the fundamental architecture of the grammar. These \emph{architectural constraints} are rooted in the interaction of structural configurations and the principles of recoverability and interpretability that underlie linguistic dependencies.
+
+The Left Branch Condition (LBC) exemplifies such a constraint. Unlike processing-driven preferences, which are amenable to adaptation through repeated exposure, the LBC reflects an incompatibility between syntactic projection and dependency formation. Specifically, left-branch extraction in English violates the structural requirements for recoverable dependency formation, as modifiers and possessors in NP/DP structures do not project as licit dependency sites.
+
+This resistance to grammaticalization is further supported by cross-linguistic evidence. While English disallows left-branch extraction, languages like Serbo-Croatian permit it, suggesting that the LBC arises from language-specific architectural choices, such as rigid DP boundaries and a lack of overt case marking. These choices render certain dependencies unrecoverable in English but not in other languages.
+
+More broadly, architectural constraints, like the LBC, are categorical rather than gradient. They emerge when specific dependency types are structurally incompatible with the representational systems of a grammar, reflecting inviolable limits on what syntactic operations are generative within a given linguistic system.
+
+
+\section{Emergence}
+
+Grammaticality cannot be found in the laws of physics. It's an emergent property. But if you believe in people and puppies, in the scent of rain on hot asphalt, in the first blooming lilac of spring, in orbits and orders and other such stuff, then there's every reason to believe that grammaticality is real.
+
+Grammaticality cannot be rooted in the laws of physics; like most of what we experience, it's an emergent property, contingent not on atomic interactions but on human cognition and social convention. But that doesn't make it any less real. Grammaticality is the manifestation of human agreement -- an agreement that evolves, shifts, and adapts within the fluid boundaries of culture and context. It is a consensus, albeit an implicit one, on how words can be strung together to convey thoughts, emotions, and information in ways that are recognized within a linguistic community.

@@ -1,0 +1,46 @@
+\newcommand*{\orcid}{}
+\newcommand{\data}[1]{\textit{#1}}
+
+% This command modifies the underline to accomodate drop characters
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}}%
+
+% This command is used to mark inline data as ! or ? and italicize the data. Don't use for *.
+\newcommand{\mymark}[2]{\textsuperscript{#1}\textit{#2}}
+
+% This command is used to create an initial example with superscript ! or ? and italicize the data. Don't use for *.
+\newcommand{\eamark}[2]{\ea[\textsuperscript{#1}]{\textit{#2}}}
+
+% This command is used to create a subsequent example with superscript ! or ? and italicize the data. Don't use for *.
+\newcommand{\exmark}[2]{\ex[\textsuperscript{#1}]{\textit{#2}}}
+
+% Define a command for strikethrough text
+\newcommand{\textst}[1]{
+  \tikz[baseline=(text.base)]{
+    \node[inner sep=0pt,outer sep=0pt] (text) {#1};
+    \draw[line width=0.5pt] ([yshift=1ex]text.south west) -- ([yshift=1ex]text.south east); % Adjust yshift for line position
+  }
+}
+
+%----------------------------------------------------------------------
+% Node labels in CGEL trees are defined with \Node, 
+% which is defined so that \Node{Abcd}{Xyz} yields 
+% a label with the function Abcd on the top, in small
+% sanserif font, followed by a colon, and the category 
+% Xyz on the bottom.
+\newcommand{\Node}[2]{\small\textsf{#1:}\\{#2}}
+% For commonly used functions this is defined with \(function)
+\newcommand{\Head}[1]{\Node{Head}{#1}}
+\newcommand{\Subj}[1]{\Node{Subj}{#1}}
+\newcommand{\Comp}[1]{\Node{Comp}{#1}}
+\newcommand{\Mod}[1]{\Node{Mod}{#1}}
+\newcommand{\Det}[1]{\Node{Det}{#1}}
+\newcommand{\PredComp}[1]{\Node{PredComp}{#1}}
+\newcommand{\Crd}[1]{\Node{Coordinate}{#1}}
+\newcommand{\Mk}[1]{\Node{Marker}{#1}}
+\newcommand{\Obj}[1]{\Node{Obj}{#1}}
+\newcommand{\Sup}[1]{\Node{Supplement}{#1}}
