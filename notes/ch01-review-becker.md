@@ -1,0 +1,20 @@
+## Chapter 01: Stories from syntactic islands
+
+### Strengths
+You begin in exactly the right place politically: with Ross and Chomsky, doing real work, taken seriously. A book skeptical of generativism that opens by celebrating one of generativism's clearest empirical wins is doing the hard work of charity. A generativist reader meeting this chapter sees a writer who knows the discoveries of the field, respects them, and finds them interesting. That is the entry pass for everything that comes later. The Tristan/Hancock juxtaposition is also genuinely good. Two stories, both about people experiencing a "wrong" sound and either eventually accepting it or making it right, give the reader two intuitions to hold simultaneously without telling them which one wins. That kind of dual presentation is what gets opponents to read on. The Goold Brown sniping ("fudge!") and the Ann Fisher backstory are charming and serve a sociology-of-knowledge purpose: grammar is and has always been a social, contested, gendered enterprise. That's not the same as saying generativists are wrong, but it places their concerns in a wider social field.
+
+### Major concerns
+Long stretches read as LLM-padding (the Jeremy Taylor section especially, lines 106-130: many of those paragraphs say the same thing five different ways and end with TED-talk closers like "grammar matters" and "a powerful tool for conveying meaning"). The reader will lose patience and, worse, lose confidence in your judgement. A generativist reader is unusually attuned to slack writing; the field punishes vagueness.
+
+The longer worry: this chapter is doing too many jobs. It is an introduction to extraction and islands. It is a history of English grammar books. It is a meditation on Wagner. And, smuggled in at section 1.5, it is the entire model of grammaticality, presented as a 14-point list with sub-bullets. That list is the central thesis of the book, and it appears here, before the reader has any reason to accept its terms. By the time the reader reaches "Architectural Constraints and Syntactic Inviolability," they are reading a research paper, not a book. The voice has shifted. The imagined reader has shifted. A generativist will read 1.5.3 and the LBC subsection as Brett trying to plant a flag with a technical-sounding subsection that competes on their territory and (depending on their views) doesn't win.
+
+The "Tristan vs. arithmetic" framing is good, but you let the reader feel the contest is already settled by the way the two camps are characterized. The arithmetic side gets one sentence; the Tristan side gets two paragraphs and the closing emotional resonance. A generativist will sense this. They will feel they were given the worse version of their own view to beat.
+
+### Priority fixes
+- Move the model (1.5) out of chapter 1 and into a later chapter where the reader has earned the right to it, perhaps chapter 10 or 15.
+- Cut the Jeremy Taylor padding by half. The point that *ungrammatical* originally meant "interpretively wrong" is good and survives the cut.
+- Give the universalist position one fully respectful page, in its strongest form, before posing it against Tristan. Charitable opposition reads as fair-minded; selective opposition reads as covert advocacy.
+- Replace the "Architectural Constraints" subsection with one paragraph that says "we'll come back to genuine architectural cases like the LBC later," and move the technical content to its proper chapter.
+
+### One concrete suggestion
+Don't deliver your thesis in chapter 1. The chapter wants to do too much because the book hasn't decided what chapter 1 is for. Make this chapter the book's hook, not its argument. Tell the island story (which is great), tell the history of English grammars (also great), and end with the Tristan/Hancock pair as a question, not a verdict: "is this kind of mistake more like 2+2=3, or more like the wrong chord?" The whole rest of the book is the answer. By staging the question and witholding the answer, you keep generativists reading and you give yourself room to build the case slowly. Right now the chapter declares before it persuades.

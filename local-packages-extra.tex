@@ -1,0 +1,33 @@
+% Project-specific package additions for *(Un)grammatical*.
+% Loaded after .house-style/preamble.tex; the house preamble already
+% loads geometry/fonts/biblatex/langsci-gb4e/imakeidx/glossaries-extra etc.
+% This file adds packages used by Ungrammatical chapters that the house
+% preamble doesn't already cover.
+
+\usepackage{tcolorbox}            % framed boxes (used in some chapters)
+\usepackage{contour}              % \contour for \myuline (in localcommands.tex)
+\usepackage{xstring}
+\usepackage{dialogue}             % dialogue formatting
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,tabsize=2,breaklines=true}
+
+\usepackage{cancel}
+\usepackage{tikz-dependency}
+\usepackage{multirow}
+\usepackage{bigdelim}
+\usepackage[linguistics]{forest}  % syntax trees with linguistics library
+\usepackage{wrapfig}
+
+% pgfplots already loaded by .house-style/preamble.tex; date plots library:
+\usepgfplotslibrary{dateplot}
+
+% =========================
+% Compatibility shims for langsci macros still used in three frontmatter
+% chapters (chapters/abbreviations.tex, acknowledgments.tex, preface.tex).
+% These were provided by langscibook.cls; minimal replacements here so the
+% chapters still compile without rewriting them.
+% =========================
+\providecommand{\addchap}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+\providecommand{\lsAcknowledgementTitle}{Acknowledgements}
+\providecommand{\lsPrefaceTitle}{Preface}
+\providecommand{\lsAbbreviationsTitle}{Abbreviations}

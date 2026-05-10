@@ -5,20 +5,20 @@ repository.
 
 ## Project Overview
 
-A book by Brett Reynolds for Language Science Press, titled
-`*(Un)grammatical: How grammaticality works` (HPLS series, CC-BY).
-The book traces what people actually mean when they call something
-ungrammatical: across linguistic, moral, political, fashion, swearing,
-codeswitching, and neurolinguistic domains, connecting the diversity
-to a homeostatic-property-cluster account of grammaticality. It is the
-trade-style companion to Brett's HPC research on grammaticality
+A trade-style book by Brett Reynolds, titled `*(Un)grammatical: How
+grammaticality works` (CC-BY). Self-published; no Language Science Press
+submission planned. The book traces what people actually mean when they
+call something ungrammatical: across linguistic, moral, political,
+fashion, swearing, codeswitching, and neurolinguistic domains, connecting
+the diversity to a homeostatic-property-cluster account of grammaticality.
+It is the trade-style companion to Brett's HPC research on grammaticality
 (`papers/Grammaticality_*`, `papers/Field_relative_HPC_categories`,
 etc.).
 
 ## Build
 
-This is a langsci-press book project (langscibook.cls). Build with
-XeLaTeX:
+Standard `book` documentclass with the HPC house-style preamble. Build
+with XeLaTeX:
 
 ```
 xelatex main
@@ -27,21 +27,34 @@ xelatex main
 xelatex main
 ```
 
-The langscibook class expects the langsci local-* files
-(localpackages.tex, localmetadata.tex, localcommands.tex,
-localhyphenation.tex, localbibliography.bib, locallanguages.txt,
-localseealso.tex, localsubjectterms.txt). Do not rename or restructure
-these files; the class file requires them.
+Key build files:
+
+- `main.tex` — master document. Loads `.house-style/preamble.tex`,
+  `local-packages-extra.tex`, then `localcommands.tex`. Includes the
+  15-chapter restructure described in `notes/restructure-plan.md`.
+- `.house-style/preamble.tex` — house preamble (copied from the HPC
+  book; bibliography pointer adapted to this project's
+  `localbibliography.bib`; pdftitle updated). Provides geometry, fonts
+  (EB Garamond + Charis SIL + xeCJK), biblatex, langsci-gb4e, imakeidx
+  (four indices: subject, names, languages, lexical), glossaries-extra,
+  and the standard custom commands (`\term`, `\mention`, `\mentionhead`,
+  `\ipa`, `\abbr`, `\ungram`, `\marg`, `\eg`, `\ie`, etc.).
+- `local-packages-extra.tex` — Ungrammatical-specific packages not in
+  the HPC preamble (`tcolorbox`, `contour`, `dialogue`, `listings`,
+  `cancel`, `tikz-dependency`, `multirow`, `bigdelim`, `forest`,
+  `wrapfig`) plus shims for legacy langsci title macros still used in
+  the three frontmatter files (`\addchap`, `\lsAcknowledgementTitle`,
+  `\lsPrefaceTitle`, `\lsAbbreviationsTitle`).
+- `localcommands.tex` — project macros (`\data`, `\Node`, `\myuline`,
+  `\textst`, CGEL function macros).
 
 **Avoid LuaLaTeX.** It runs words together in the underlying PDF text
 layer.
 
 ## Bibliography
 
-The book uses `localbibliography.bib` (langsci-press convention), not
-`references.bib`. Do not symlink to the central house bib; the langsci
-build expects this filename. New entries go directly into
-`localbibliography.bib`.
+The book uses `localbibliography.bib`. New entries go directly into
+that file (or via the central-bib workflow at the portfolio root).
 
 **Source Grounding (LAW):** verify entries against authoritative
 sources before adding. Do not generate citations from training data.
@@ -58,22 +71,21 @@ The general writing-style rules in the central `.claude/rules/` apply:
   `doing real work`, `it's not about X, it's about Y`, etc.)
 - Direct verbs, simple coordinators
 
-The article-paper LaTeX macros (`\term`, `\mention`, `\enquote`) are
-**not** used here. langscibook.cls has its own typographic conventions,
-and project-specific macros live in `localcommands.tex`.
+The HPC house preamble defines `\term`, `\mention`, `\enquote`,
+`\ipa`, and the `\ixs` / `\ixn` / `\ixg` / `\ixl` index helpers.
+Project-specific macros (`\data`, `\Node`, CGEL function macros) live
+in `localcommands.tex`.
 
 ## Chapter Layout
 
-Chapters are in `chapters/`, numbered with two-digit indexes plus a
-short title separated by a space:
-
-- `00 introduction.tex`
-- `00 a notes.tex`, `00 b organization.tex` (scratchpad; not for clean
-  build)
-- `01.tex` through `21 A long long way.tex`
-
-The `\include{}` calls in `main.tex` use those exact filenames
-(spaces and all). Don't rename without updating `main.tex`.
+Chapters are in `chapters/`. The current build sequence is the
+15-chapter restructure described in `notes/restructure-plan.md`; new
+chapters in progress are prefixed with `_` (e.g., `_09 whose grammar.tex`,
+`_13 what grammaticality is.tex`, `_15 coda.tex`). The unrenumbered
+existing chapter files (`00 introduction.tex`, `01.tex`,
+`02 Gradient grammaticality.tex`, etc.) are still in their original slots
+but are now read in restructured order; see comments at the bottom of
+`main.tex` for what's in/out and why.
 
 ## CGEL Conventions
 

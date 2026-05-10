@@ -23,3 +23,34 @@ and an initial commit) was deleted to free the name; Brett authorised
 the destructive replacement after being shown the conflict. Reason:
 portfolio default is public, the book is CC-BY, and the 2023 repo had
 no value worth preserving as a fork.
+
+2026-05-09 — Migrated LaTeX framework from `langscibook` to standard
+`book` class with HPC book's house-style preamble. Replaces langsci-press
+build configuration entirely. Reason: Brett requested it after the
+restructure work; HPC's setup is more comprehensive (parts, multi-index,
+glossary infrastructure, custom commands like \term/\mention/\ipa/\ixs,
+EB Garamond + Charis SIL fonts, 7×10 press trim). The previous
+`main.tex` was preserved as `main-langsci.tex` (later deleted in the
+LSP-target cleanup below). New files added: `.house-style/` (cp from HPC
+book), `local-packages-extra.tex` (Ungrammatical packages not in HPC
+preamble: tcolorbox, contour, dialogue, listings, cancel,
+tikz-dependency, multirow, bigdelim, forest [linguistics], wrapfig).
+Bibliography reference in `.house-style/preamble.tex` adapted from HPC's
+`references.bib`/`references-local.bib` to Ungrammatical's
+`localbibliography.bib`. Glossary not yet enabled (no entries written);
+indices are declared but empty until chapters are tagged with \ixs etc.
+The Phase 3 `_main-new.tex` draft was superseded and removed.
+
+2026-05-09 — Dropped Language Science Press as the publication target.
+The book is now self-published, CC-BY. Reason: Brett confirmed no LSP
+submission is planned. Cleanup pass: deleted the langsci orphans
+(`langscibook.cls`, `langsci-affiliations.sty`, `langsci-optional.sty`,
+`langsci_logo_nocolor.pdf`, `langsci_spinelogo_nocolor.pdf`,
+`localmetadata.tex`, `localpackages.tex`, `localhyphenation.tex`,
+`locallanguages.txt`, `localseealso.tex`, `localsubjectterms.txt`,
+`backmatter.tex`, `main-langsci.tex`). Three frontmatter chapters
+(`abbreviations.tex`, `acknowledgments.tex`, `preface.tex`) still use
+`\addchap` and `\lsXTitle` macros from langscibook; minimal shims added
+to `local-packages-extra.tex` so they continue to compile. CLAUDE.md,
+AGENTS.md, GEMINI.md, STATUS.md, README.md updated to drop LSP/HPLS
+references; CC-BY licensing retained.

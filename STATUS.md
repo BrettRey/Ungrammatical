@@ -2,14 +2,30 @@
 
 ## Project
 `*(Un)grammatical: How grammaticality works` — Brett Reynolds.
-Language Science Press, HPLS series, CC-BY.
+Self-published trade book, CC-BY.
 
 ## Stage
-Project folder scaffolded 2026-05-09 from `~/Downloads/Ungrammatical.zip`
-(prior work on the book). Twenty-one chapter files in `chapters/`, in
-mixed states of completion. Two scratchpad files (`00 a notes.tex`,
-`00 b organization.tex`) are included via `main.tex` and need either
-development or removal before a clean build.
+Mid-restructure. The book has been re-architected from 21 chapters to
+15 chapters per `notes/restructure-plan.md`; LaTeX framework has been
+migrated from `langscibook` to standard `book` class with the HPC
+house-style preamble (see `DECISIONS.md`, 2026-05-09 entry).
+
+Phase status (per `notes/restructure-plan.md`):
+- Phase 1 (Excise): complete. LLM contamination identified by the
+  packaging-board reviews has been cut from chs 02, 04, 05, 06, 09, 10,
+  12, 14, 15, 17, 21.
+- Phase 2 (Merge): complete. Old ch 04+06+14+16+18 merged into
+  `chapters/_09 whose grammar.tex`; old ch 03 folded into ch 02.
+- Phase 3 (Move): complete. New build sequence wired in `main.tex`;
+  placeholder files for new ch 13 (synthesis) and new ch 15 (coda)
+  in place; new ch 14 rebuilt from the ch 20 stub (preserving the
+  diachronic context section).
+- Phase 4 (Write): in progress. Scaffolds in place at
+  `chapters/_13 what grammaticality is.tex`,
+  `chapters/20 Getting grammaticality wrong.tex`,
+  and `chapters/_15 coda.tex`. Editorial moves and bibliography
+  acquisitions documented in `notes/phase4-prep.md`.
+- Phase 5 (Polish): not yet started.
 
 ## Working thesis
 Grammaticality is not a unified concept. The book traces the diverse
@@ -18,16 +34,18 @@ linguistic, moral, political, fashion, codeswitching, swearing, and
 neurolinguistic domains, and connects the diversity to a
 homeostatic-property-cluster account of grammaticality.
 
-## Target venue
-Language Science Press, HPLS series. Open-access (CC-BY).
-
 ## Carryovers
-- Audit the chapter files for current state: which are draft-complete,
-  which are partial, which are notes.
+- Phase 4 writes: new ch 13 synthesis (heaviest), new ch 14 *whose*-arc
+  rebuild, new ch 15 coda; cuts to ch 05 (two-thirds reduction); trim
+  of ch 15 after the *whose* resolution moves to new ch 14.
+- Bibliography acquisitions per `notes/literature-plan.md` Updates
+  section: Cameron 1995 *Verbal Hygiene*, Lippi-Green, Bergen, Tim Jay,
+  Myers-Scotton MLF, Hebdige, Polhemus, Hankamer & Postal 1973 squib,
+  Hankamer & Sag 1976.
+- Schleicher 1863, Schleicher 1869, Sweet 1892, Sweet 1900 fetched
+  into `literature/` 2026-05-09; `.md` siblings still need generation.
 - Repo pushed to https://github.com/BrettRey/Ungrammatical (public,
   CC-BY, master branch).
-- Verify `localbibliography.bib` entries before any new drafting:
-  spot-check for fabricated citations from prior LLM-assisted passes.
-- Consider whether the working-note chapters (`00 a notes.tex`,
-  `00 b organization.tex`) should be commented out of `main.tex` for
-  now, or moved to a `notes/` subdirectory.
+- First xelatex compile after the framework migration not yet attempted;
+  expect a few "undefined control sequence" errors as chapter-specific
+  macros surface; add them to `local-packages-extra.tex` as needed.
