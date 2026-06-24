@@ -1,6 +1,15 @@
 \newcommand*{\orcid}{}
 \newcommand{\data}[1]{\textit{#1}}
 
+% Opening and closing bracket markers (for highlighting substrings in examples).
+% Wrapped in \textup{} so brackets and parens stay upright even when used
+% inside \mention{} or \textit{} — the brackets aren't part of the form being
+% mentioned, so they shouldn't take the italic shape of the form.
+\newcommand{\ob}{\textup{[}\nobreak}
+\newcommand{\cb}{\textup{]}}
+\newcommand{\op}{\textup{(}\nobreak}
+\newcommand{\cp}{\textup{)}}
+
 % This command modifies the underline to accomodate drop characters
 \renewcommand{\ULdepth}{1.8pt}
 \contourlength{0.8pt}

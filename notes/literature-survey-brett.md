@@ -17,14 +17,14 @@ Conventions:
 Reduplication in English, *long long* construction, Turkish reduplication,
 classroom-as-scene material.
 
-- `chapters/21 A long long way.tex` — **the load-bearing original work**.
+- `chapters/01 A long long road.tex` — **the load-bearing original work**.
   Hollies lyrics, Pullum's Turkish woman example, Brett's classroom
   observations of international students, Old English and Middle English
   history of intensificatory reduplication, Japanese / Russian / Jamaican
   Creole / North-East Ambae cross-linguistic data, the *much*/*black*-bird/
   *burggeat* etymology. This is the new ch 1 nearly intact (per
   restructure-plan).
-- `chapters/00 introduction.tex` — small lift only: nothing on reduplication
+- `chapters/00 The asterisk.tex` — small lift only: nothing on reduplication
   here, but the "FANBOYS" Toronto-arrival / Humber / *English, Jack* blog
   origin story (lines 92–116) might pair with the classroom scene if Brett
   wants a teacher's-eye opening rather than a lyric opening.
@@ -37,7 +37,7 @@ classroom-as-scene material.
 
 History of philology, Schleicher, Sweet, the asterisk-as-mark.
 
-- `chapters/00 introduction.tex` — **the load-bearing original work** for
+- `chapters/00 The asterisk.tex` — **the load-bearing original work** for
   this chapter. Schleicher (1821, asterisk for unattested Indo-European
   reconstructions, Darwin connection); Henry Sweet (1845–1912, *A new
   English grammar*, repurposing the asterisk for unobserved/ungrammatical
@@ -46,7 +46,7 @@ History of philology, Schleicher, Sweet, the asterisk-as-mark.
   weird-CGEL-asterisk-examples set piece (lines 18–28). Lift wholesale,
   cut the autobiographical "FANBOYS" tail (which is better placed
   elsewhere or cut entirely).
-- `chapters/01.tex` — has the Jeremy Taylor 1654 first-known-use of
+- `chapters/02 Stories from syntactic islands.tex` — has the Jeremy Taylor 1654 first-known-use of
   *ungrammatical* (lines 64–130), the Goold Brown 1851 *Grammar of
   English grammars* set piece, Ann Fisher's 1745 grammar (first by a
   woman; first to use asterisks for "false syntax"), Robert Lowth, Noah
@@ -61,7 +61,7 @@ History of philology, Schleicher, Sweet, the asterisk-as-mark.
 
 Ross 1967, Chomsky's island constraints, pragmatic constraints on extraction.
 
-- `chapters/01.tex` — **load-bearing**. The Haj Ross MIT-1966 framing,
+- `chapters/02 Stories from syntactic islands.tex` — **load-bearing**. The Haj Ross MIT-1966 framing,
   the basic *what did they see?* / *she doubted the idea that they had
   seen what?* island demonstration, Boeckx 2012 island-repair quote,
   the Tristan chord / Herbie Hancock parallel for "ungrammatical as
@@ -99,7 +99,7 @@ Ross 1967, Chomsky's island constraints, pragmatic constraints on extraction.
 
 Sprouse, Featherston, fuzzy/gradient acceptability, the Tristan chord.
 
-- `chapters/02 Gradient grammaticality.tex` — **load-bearing**.
+- `chapters/03 Degrees of wrongness.tex` — **load-bearing**.
   Sampson's "all is grammatical" position, Chomsky's binary view,
   generative toy grammar (lexicon + rules + tree of *the dog chases the
   cat*), the *probable to play* puzzle (Hurford), the gradient examples
@@ -114,7 +114,7 @@ Sprouse, Featherston, fuzzy/gradient acceptability, the Tristan chord.
   Indonesian / Pirahã), syntactic satiation, Donaldson on dangling
   modifiers, the Osman *Trouble more determined to be stroked by him*
   passive-by-phrase example from Pullum.
-- `chapters/01.tex` (sec:tristan) — the Tristan chord and Herbie Hancock
+- `chapters/02 Stories from syntactic islands.tex` (sec:tristan) — the Tristan chord and Herbie Hancock
   story. Lift here as the metaphor for "ungrammatical-as-unfamiliar."
 - `papers/Grammaticality_de_idealized/main.tex` — **major source**.
   Brett's MVMG framework: structural viability, interpretive coherence,
@@ -144,7 +144,7 @@ Sprouse, Featherston, fuzzy/gradient acceptability, the Tristan chord.
 Dennett's real patterns, *probable to play*, Caxton 1481, distributional
 patterns.
 
-- `chapters/10 real patterns.tex` — **load-bearing**. *Amelie showed
+- `chapters/04 Real patterns.tex` — **load-bearing**. *Amelie showed
   Basil Clara* and the cross-linguistic role-shuffling (Azerbaijani,
   Hixkaryana, English imperative). Spray/load alternations
   (`spray`/`load`/`dab`/`heap`/`pack`/`smear`/`spread` vs
@@ -154,7 +154,7 @@ patterns.
   in the book. *November the fifth* / *the fifth of November* /
   *October the first* historical EEBO data. Chris Anderson "long tail"
   framing.
-- `chapters/12 Becoming ungrammatical.tex` (lines 22–35) — the Caxton
+- `chapters/06 Becoming ungrammatical.tex` (lines 22–35) — the Caxton
   1481 *much fair*/*much great*/*much noble* set piece. Lift to ch 5
   per restructure plan ("parts of ch 09 (*probable to play*, Caxton
   1481)"). Note that Caxton currently lives in ch 12 not ch 09; the
@@ -183,7 +183,7 @@ patterns.
 Metacognitive feelings, intuitions as detectors, the *whose* investigation
 as the development thread.
 
-- `chapters/05 intuitions.tex` — **load-bearing**. The Hankamer-Postal
+- `chapters/05 How grammar feels.tex` — **load-bearing**. The Hankamer-Postal
   1973 "Whose gorilla?" squib, OED examples 1325–2018, the *whose
   wasn't working* survey of Brett's friends/family, Pullum on reflective
   equilibrium (Goodman, Rawls), Donaldson on dangling modifiers / free
@@ -225,7 +225,7 @@ as the development thread.
 
 Diachronic change, *very*/*much* alternation, grammaticalization.
 
-- `chapters/12 Becoming ungrammatical.tex` — **load-bearing**. The
+- `chapters/06 Becoming ungrammatical.tex` — **load-bearing**. The
   *verray*/*very* late-13th-century journey (from Anglo-French *verrai*,
   Latin *verus*, cognate with *verify*, *verdict*, *warlock*); *much*
   in Old English *micel* "great in size"; the Caxton 1481 *much
@@ -262,7 +262,7 @@ Diachronic change, *very*/*much* alternation, grammaticalization.
 
 Working-linguist analysis, *Rubymar*, Pullum/Reynolds correspondence.
 
-- `chapters/15 what's ungrammatical.tex` — **load-bearing**. *I go
+- `chapters/07 What's ungrammatical.tex` — **load-bearing**. *I go
   there yesterday* clash example (mom-son dialogue both ungrammatical
   and grammatical depending on storytelling context). Old French → Modern
   French passé composé development (table of conjugations, IPA
@@ -362,7 +362,7 @@ Moral / political / fashion / codeswitching / swearing dimensions of
 
 Dialect, contact linguistics, dialect grammaticality.
 
-- `chapters/13 Across language boundaries.tex` — **load-bearing**. Bill
+- `chapters/09 Across language boundaries.tex` — **load-bearing**. Bill
   Withers *ain't no sunshine when she's gone*. Singlish examples (*Wah
   lau! This guy Singlish si beh hiong sia*). African American English
   *ain't nobody come to help us* analysis (four grammatical departures
@@ -395,7 +395,7 @@ Dialect, contact linguistics, dialect grammaticality.
 
 Moro, UG-imposed limits, formal constraints, learnability.
 
-- `chapters/17 impossible languages.tex` — **load-bearing**. Sampson
+- `chapters/10 Impossible languages.tex` — **load-bearing**. Sampson
   1975 prime-number language and even-occurrence language; Moro 2016
   impossible-language definitions; Kallini 2024 figure on
   impossible-possible language continuum; Chomsky's 1957 *colorless
@@ -435,7 +435,7 @@ Moro, UG-imposed limits, formal constraints, learnability.
 
 Gibson dependency-distance, Futrell, processing-vs-grammar.
 
-- `chapters/19 efficiency.tex` — **load-bearing**. Futrell 2020
+- `chapters/11 Communicative efficiency.tex` — **load-bearing**. Futrell 2020
   efficiency hypothesis and dependency locality. Highway-exit analogy
   (drive-on-the-right / exit-on-the-right). *Take a break* / *with a
   break* head-first ordering, Japanese counterpart with head-last. The
@@ -552,19 +552,19 @@ material. Almost the whole HPC programme feeds it.
 
 The Hankamer-Postal *whose* arc as the paradigm case.
 
-- `chapters/20 Getting grammaticality wrong.tex` — currently a stub
+- `chapters/13 Getting grammaticality wrong.tex` — currently a stub
   (25 lines): Old English *þe* relative pronoun, *þe his* construction,
   Middle English emergence of relative *who*. Useful background for
   the *whose* arc but the arc itself isn't here yet. Restructure plan
   says "rebuilt from the existing ch 20 stub. The Hankamer-Postal
   *whose* arc as the moment readers see what people inside the story
   couldn't."
-- `chapters/05 intuitions.tex` — has the *whose* development thread
+- `chapters/05 How grammar feels.tex` — has the *whose* development thread
   Brett wants to embed in ch 6. The resolution moves to ch 14: the OED
   evidence going back to 1325, the friends-and-family informal survey,
   the LLM ratings, the *Wikipedia* edit, the Cambridge grammar
   oblique-genitive example.
-- `chapters/15 what's ungrammatical.tex` — has the detailed *whose*
+- `chapters/07 What's ungrammatical.tex` — has the detailed *whose*
   analysis (lines 366–631): topicality conditions, double anaphora,
   cross-linguistic tour (German *dessen*, Spanish *cuyo*, Persian,
   Japanese). This is the part Brett needs to turn into the arc's
@@ -588,7 +588,7 @@ The Hankamer-Postal *whose* arc as the paradigm case.
 
 Echo of ch 1.
 
-- `chapters/21 A long long way.tex` — return to the Hollies
+- `chapters/01 A long long road.tex` — return to the Hollies
   lyric, the classroom, *long long* / *the road is long long*.
 - No specific portfolio paper feeds this; it's a brief recapitulation.
 

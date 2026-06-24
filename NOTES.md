@@ -30,3 +30,16 @@ When drafting chapters that draw on these papers, cite the academic
 versions in `localbibliography.bib` rather than copying prose
 directly; the book is for a wider readership and the paper prose will
 usually need translating.
+
+## Literature Hooks
+
+### Cai et al. (2026), neuronal language models
+
+Central note: `../../literature/cai_etal_2026_neuronal_language_models.notes.md`.
+
+Use if the neurolinguistics, "how grammar feels," or "what grammaticality is"
+chapters are reopened. It is a useful case for saying that parser-derived
+features and contextual language-model embeddings can project into neural
+activity during natural speech production. It should not be used to collapse
+grammaticality into brain activity, to treat neural encoding as a verdict on
+acceptability, or to imply that neurons understand grammar.

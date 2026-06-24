@@ -1,0 +1,203 @@
+\chapter{What grammaticality is}
+\label{ch:what-grammaticality-is}
+
+% Phase 4 scaffold. NO LLM-generated prose; structure + per-section TODOs only.
+% Heaviest write of the restructure. Per packaging-board synthesis, HPC is
+% named LATE — the reader has felt the cluster across twelve chapters; this
+% chapter names what they've been seeing.
+%
+% Master sources (per notes/literature-plan.md):
+%   HPC book ch 15 §2 (the detector account)        — primary
+%   HPC book ch 5    (basin diagrams)               — primary
+%   HPC book ch 14   (category zipper)
+%   HPC book ch 7    (field-relative projectibility)
+%   Brett's portfolio: Grammaticality_as_Kind_Miller, Grammaticality_de_idealized,
+%                      Grammaticality_judgments_as_detectors, Field_relative_HPC_categories,
+%                      Labels_to_Stabilisers, Language_as_a_Stack_of_HPC_Kinds
+%   External:          Boyd 1991, Khalidi 2013, Slater 2015, Powell 2020 (just imported),
+%                      Skyrms 2010 (just imported), O'Connor 2019 (just imported),
+%                      Dennett 1991 "Real Patterns" (still to acquire)
+%
+% Length target: ~30-40 manuscript pages.
+
+\section{The cluster, named}
+
+% EDITORIAL-HPC: This chapter must explicitly resolve the book-level tension:
+% public uses of "ungrammatical" are not unified, but grammaticality proper is
+% not therefore a loose plurality. State the target as a maintained,
+% projectible form-value coupling whose detector is noisy and socially
+% calibrated.
+%
+% EDITORIAL-HPC: Add a small recognition table in prose or display form:
+% example/chapter -> coupling at issue -> stabilizers -> what it predicts ->
+% likely detector confound. This is the easiest way to keep projectibility from
+% becoming decorative.
+% TODO. Open by naming HPC explicitly. The reader has felt it across the
+% previous twelve chapters; now state it.
+%
+% Suggested moves (your call):
+%   - Open with a moment of recognition (cf. HPC book ch 15 §1's "Thursday,
+%     4 December 2025" anecdote about phase transitions — consider a parallel
+%     for grammaticality).
+%   - HPC in three sentences, no philosophy jargon.
+%   - Why "cluster" is the right word — not "definition," not "rule," not
+%     "convention."
+%
+% Length: 3-5 paragraphs. First person; the recognition is yours.
+
+\section{The detector}
+
+The chapters so far have treated grammaticality as something we feel, something we argue over, and something we sometimes get wrong. The next step is to say what kind of thing could support all of those uses.
+
+\subsection{Predictive processing and neural evidence}
+
+Ever catch yourself finishing someone else's sentence? That's your brain doing what it does best~-- making predictions. Our brains aren't just passive receivers of language; they're constantly trying to guess what's coming next. When those guesses are wrong, it's like a little alarm goes off in our heads. This predictive processing is key to understanding how our brains handle grammar.
+
+Here's a fun example. Read this sentence:
+
+\ea{\textit{How many animals of each kind did Moses take on the Ark?}}\label{ex:moses}
+\z
+
+Did you spot the error? It was Noah, not Moses. But don't feel bad if you missed it~-- most people do. That's because your brain, making predictions based on the words ``animals'', ``Ark'', and a biblical figure, fills in the blanks so efficiently that it often overrides your actual knowledge. It's like your brain is saying, ``Close enough!''
+
+This predictive power explains why we can breeze past some pretty glaring grammatical errors. Take this gem from \textit{Fifty Shades of Grey}:
+
+\ea[*]{\textit{Pulling off his boxer briefs, his erection springs free. Holy cow!}}\label{ex:erection-neuro}
+\z
+
+Grammatically, this is a howler. \textit{Pulling off his boxer briefs} should describe what the subject of the sentence is doing, but unless this is a very different kind of novel, \textit{his erection} isn't doing any undressing. Yet most readers don't even blink. The broader context creates such strong expectations that our brains just fill in the blanks and move on.
+
+Our brains don't just passively receive language input~-- they're constantly making predictions about what's coming next. When those predictions are violated, it generates a neural surprise signal. This predictive processing framework offers a powerful lens for understanding how our brains handle grammar.
+
+% TODO: add bib entry -- raw DOI URL, resolves to a 2024 Nature paper on hippocampal sequence representation; needs proper bib entry
+Recent research (doi.org/10.1038/s41586-024-07973-1) has given us an unprecedented look at how this process works at the level of individual neurons. In a groundbreaking study, scientists recorded the activity of single neurons in the brains of epilepsy patients who had electrodes implanted for clinical reasons. They found that neurons in the hippocampus and entorhinal cortex~-- areas crucial for memory and navigation~-- gradually changed their firing patterns to represent the structure of a sequence of images the patients were viewing.
+
+This neuronal representation formed rapidly and without any explicit instructions. The patients weren't told to look for patterns; their brains just naturally extracted the underlying structure. This is remarkably similar to how we learn grammar~-- not through memorizing rules, but by implicitly picking up on patterns in the language we hear.
+
+Even more intriguingly, when the researchers looked at the combined activity of many neurons, they could recover the entire structure of the image sequence. It's as if the brain had built a mental map of the sequence, much like the ``cognitive maps'' these same brain areas create of physical spaces. This suggests that our brains might represent the structure of language~-- its grammar~-- in a similar way to how we represent the layout of a city or the order of events in a story.
+
+This neuronal representation wasn't just a passive record of what had happened. It was predictive, encoding information about what was likely to come next in the sequence. This aligns perfectly with the predictive processing framework we discussed earlier. Your brain isn't just recognizing grammatical sentences; it's actively predicting how those sentences will unfold.
+
+The researchers also found evidence of ``replay''~-- the neurons would spontaneously reactivate in the same patterns they'd followed during the initial sequence, but speeded up. This replay happened during breaks, suggesting it might be a way for the brain to consolidate what it had learned. It's not hard to imagine similar processes happening as we internalize the patterns of our native language.
+
+Let's bring this back to grammar. When you encounter a sentence like \textit{The old man the phones}, your brain initially predicts that \textit{man} is a noun, based on the familiar pattern of \textit{The old man...} But as soon as you hit \textit{the boats}, that prediction is violated. Your neurons are likely firing in patterns that reflect this violation, similar to the ``surprise'' signals seen in the image sequence study. Your brain then has to rapidly revise its interpretation, now understanding \textit{man} as a verb.
+
+Neuroscientists have actually measured these prediction processes in the brain. When we encounter unexpected words or structures, our brains generate distinct patterns of electrical activity. There are two main ones to know about:
+% EDITORIAL-HPC: Treat ERP signatures as detector-channel evidence, not direct
+% measurements of grammaticality. N400/P600 mappings are messy, and the HPC
+% point is dissociation between coupling, processing load, and reported
+% judgment.
+
+\begin{itemize}
+    \item The N400: Think of this as your brain's ``semantic speed bump''. It happens about 400 milliseconds after you encounter a word that doesn't fit semantically. If I say \textit{I like my coffee with cream and socks}, your brain hits that speed bump at ``socks''.
+    \item The P600: This is more like a ``syntactic pothole''. It occurs about 600 milliseconds after you hit a grammatical snag. You'd get a big P600 if you read \textit{The man bit dog the}.
+\end{itemize}
+
+These brain blips get bigger the more surprising the word or structure is. A mild surprise is like a gentle speed bump, while a major violation is like hitting a pothole at 60 mph.
+
+But here's where it gets really interesting: context can totally change how our brains respond. That Moses sentence earlier? In casual conversation, your brain might just sail right past it without triggering an N400 response. But in a psychology experiment, where you're primed to expect tricky questions and are paying close attention, you're more likely to notice the error. In that case, your brain would probably generate an N400 response when it encounters \textit{Moses}.
+
+This flexibility ties into a broader idea in neuroscience: that our experiences, including our sense of what's grammatical, might be actively constructed by our brains. Lisa Feldman Barrett proposed this for emotions~-- that they're not fixed categories, but experiences our brains construct on the fly from more basic ingredients.
+% EDITORIAL-HPC: Keep "constructed" away from nominalism. The experience of
+% ungrammaticality is constructed by the detector; the grammatical coupling it
+% tracks can still be real, maintained, and projectible.
+
+Kent Berridge extended this idea to our sense of good and bad~-- what neuroscientists call ``valence''. He challenged the idea that specific brain regions are permanently dedicated to positive or negative feelings. Instead, he suggested that neural systems can have multiple ``affective modes'', capable of producing both positive and negative feelings depending on the context.
+
+We can apply this same thinking to grammaticality. When we encounter a sentence, we're not just mechanically applying rules. We're rapidly constructing an experience based on:
+
+\begin{itemize}
+    \item How we're feeling physically (Are we tired? Stressed?)
+    \item What we know about language
+    \item Our gut feeling of ``rightness'' or ``wrongness''
+\end{itemize}
+
+This explains why our sense of what's grammatical can be so flexible. Just like how the same physical sensation might feel like excitement or anxiety depending on the context, the same sentence structure might feel grammatical or ungrammatical depending on the situation.
+
+Take a sentence like \textit{That's the person who I saw}. In formal writing, you might get a twinge of wrongness~-- shouldn't it be ``whom''? But in casual conversation, it'll likely sail right by. Your brain, in different contexts, is in different ``grammatical modes''.
+
+This view also sheds light on the phenomenon of syntactic satiation~-- where if you read an ``ungrammatical'' sentence enough times, it starts to feel okay. You're not wearing out your grammar module; you're updating your brain's predictive model. What was once surprising becomes expected.
+
+It even explains why linguists often have different grammatical intuitions than the general public. It's not that linguists have access to a more accurate internal grammar. They've just developed a richer set of linguistic concepts, allowing for more nuanced predictions and categorizations.
+
+This neuroscientific perspective invites us to see grammaticality not as a binary property of sentences, but as a dynamic, constructed experience. It arises from the interplay of prediction, sensation, and conceptualization. This view embraces the messiness and flexibility of real-world language use, while still grounding our intuitions in the fundamental workings of our predictive brains.
+
+Berridge's work provides some concrete examples of this flexibility. He found that stimulating neurons in the central amygdala~-- an area often associated with fear~-- could actually enhance positive motivation for rewards like cocaine or sugar. Similarly, in the nucleus accumbens, the same neural populations could drive both positive (eating) and negative (defensive) behaviors depending on the environment.
+
+If we apply this to grammaticality, it suggests our neural circuits for language processing might be equally flexible. The same brain areas that spark a sense of wrongness when you say \textit{Me and him went to the store} might, in a different context, give you a pleasant frisson when a poet breaks the rules for artistic effect.
+
+This doesn't mean grammatical rules don't exist or don't matter. But it does suggest that our experience of those rules~-- our feeling of grammaticality~-- is far more dynamic and context-dependent than we might have thought. It's not about matching input to a stored set of rules, but about constructing a linguistic experience that best fits our current model of the world.
+
+In this light, the feeling of ungrammaticality becomes less about detecting a rule violation and more about experiencing a prediction error. And just as our brains can rapidly update their predictions in other domains, they can also update their linguistic predictions. This is how new constructions gradually become acceptable, and how the language evolves over time.
+
+This neuroscientific view offers a richer, more nuanced understanding of grammaticality. It helps explain why our intuitions can sometimes feel fuzzy or contradictory, why context matters so much, and why there's often not a clear line between ``grammatical'' and ``ungrammatical''. It suggests that our sense of grammar isn't a fixed, innate system, but a dynamic, constructed experience~-- one that's intimately tied to our broader cognitive and emotional processes.
+
+% TODO. The "feeling of ungrammaticality" is the cluster registering itself,
+% not access to a discrete rulebook.
+%
+% Source: HPC book ch 15 §2.
+%
+% Suggested moves:
+%   - State the claim plainly.
+%   - Walk through one or two examples already encountered (the road is
+%     long long? whose? something from Movement III?) showing how the
+%     detector reads them.
+%   - Why "noisy" matters: the detector responds to overall basin shape,
+%     not to features.
+%
+% Length: 4-6 paragraphs.
+
+\section{What HPC isn't}
+
+% TODO. Clear out the alternatives:
+%   - Essentialism: there's no necessary-and-sufficient condition.
+%   - Prototype theory: gradient typicality is real, but membership isn't
+%     graded; HPC says membership is sharp at the basin boundary.
+%   - Nominalism: categories are real because they're maintained.
+%
+% Source: HPC book ch 5 §3 (basin diagrams), ch 14 §1 (category zipper).
+% External: Boyd 1991, Khalidi 2013, Slater 2015.
+%
+% Length: 5-7 paragraphs.
+
+\section{The mechanisms}
+
+% EDITORIAL-HPC: Be careful with "homeostatic." The HPC book now treats
+% maintenance as the umbrella and strict homeostasis as the stronger
+% corrective-return case. Not every maintained social or stylistic pattern in
+% the trade book should be called a strict HPC.
+% TODO. Acquisition, entrenchment, alignment, transmission, functional
+% pressure — the maintenance machinery from HPC book ch 4. Brief here;
+% full apparatus is in the academic version. Show enough that the reader
+% can trace why the cluster stays clustered.
+%
+% Skyrms 2010 *Signals* (just imported) is the natural external source on
+% maintained-by-mechanism conventions; Powell 2020 on contingent-vs-convergent.
+%
+% Length: 4-6 paragraphs.
+
+\section{The fourteen-point model, demoted}
+
+% TODO. The 14-point model that lived as a numbered list in old ch 01 §7
+% is demoted from manifesto to recognition. Each point arrives as something
+% the reader has already seen at work in earlier chapters.
+%
+% Suggested format: each point gets one paragraph with a brief reference back
+% to the earlier chapter where it was illustrated. Avoid maintaining the
+% numbered-list form; let it become prose.
+%
+% Length: this is the chapter's longest section.
+
+\section{The stakes}
+
+% TODO. What changes if you take HPC seriously? For:
+%   - Linguists writing grammars (gradience is informative, not embarrassing)
+%   - LLM evaluation (acceptability metrics measure detector signal, not
+%     formal-language membership)
+%   - Pedagogy (judgement variation is a feature, not error to correct)
+%   - Philosophy of language (kinds without essences)
+%
+% Source: HPC book ch 18 (the gauntlet).
+%
+% Length: 4-6 paragraphs. Close with the move that sets up new ch 14:
+% even the cluster registering itself can fail in revealing ways.

@@ -29,12 +29,24 @@
 
 \begin{document}
 
+\pagestyle{empty}
+\begin{titlepage}
+\thispagestyle{empty}
+\AddToShipoutPictureBG*{%
+  \AtPageLowerLeft{%
+    \includegraphics[width=\paperwidth,height=\paperheight]{figures/cover/front-cover.png}%
+  }%
+}
+\null
+\end{titlepage}
+
 \frontmatter
 \pagestyle{empty}
 
 \maketitle
 \thispagestyle{empty}
 
+\input{chapters/colophon}
 \input{chapters/dedication}
 \input{chapters/preface}
 \input{chapters/acknowledgments}
@@ -46,40 +58,40 @@
 \mainmatter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%   15-chapter restructure (per restructure-plan.md)
-%%%   Parts mark the three middle Movements; Opening,
-%%%   Turn, and Resolution sit outside parts.
+%%%   15-part restructure (per restructure-plan.md)
+%%%   Parts mark the main movements; Opening, Turn,
+%%%   and Resolution sit outside parts.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Opening
-\input{chapters/21 A long long way}              % new ch 1: The road is long long
-\input{chapters/00 introduction}                 % new ch 2: The asterisk
+\input{chapters/00 The asterisk}                 % unnumbered opening
 
 % Movement I: What the asterisk hides
 \part{What the asterisk hides}
-\input{chapters/01}                              % new ch 3: Syntactic islands
-\input{chapters/02 Gradient grammaticality}      % new ch 4: Gradient grammaticality (with old ch 3 folded in)
-\input{chapters/10 real patterns}                % new ch 5: Real patterns
+\input{chapters/01 A long long road}
+\input{chapters/02 Stories from syntactic islands}
+\input{chapters/03 Degrees of wrongness}
+\input{chapters/04 Real patterns}
 
 % Movement II: How grammar feels
 \part{How grammar feels}
-\input{chapters/05 intuitions}                   % new ch 6: How grammar feels (whose-investigation embedding pending Phase 4)
-\input{chapters/12 Becoming ungrammatical}       % new ch 7: Becoming ungrammatical
-\input{chapters/15 what's ungrammatical}         % new ch 8: What's ungrammatical (whose-resolution moves out in Phase 4)
+\input{chapters/05 How grammar feels}            % whose-investigation embedding pending Phase 4
+\input{chapters/06 Becoming ungrammatical}
+\input{chapters/07 What's ungrammatical}         % whose-resolution moves out in Phase 4
 
-% Movement III: Whose grammar
-\part{Whose grammar}
-\input{chapters/_09 whose grammar}               % new ch 9: Whose grammar? (merged from old ch 4+6+14+16+18)
-\input{chapters/13 Across language boundaries}   % new ch 10
-\input{chapters/17 impossible languages}         % new ch 11
+% Movement III: Whose grammar counts
+\part{Whose grammar counts?}
+\input{chapters/08 Whose grammar}                % merged from old ch 4+6+14+16+18
+\input{chapters/09 Across language boundaries}
+\input{chapters/10 Impossible languages}
 
 % The turn
-\input{chapters/19 efficiency}                   % new ch 12: Efficiency
-\input{chapters/_13 what grammaticality is}     % new ch 13: What grammaticality is (NEW; Phase 4 scaffold)
+\input{chapters/11 Communicative efficiency}
+\input{chapters/12 What grammaticality is}       % Phase 4 scaffold
 
 % Resolution
-\input{chapters/20 Getting grammaticality wrong} % new ch 14: Getting grammaticality wrong (Phase 4 rebuild)
-\input{chapters/_15 coda}                        % new ch 15: Coda (NEW; Phase 4 scaffold)
+\input{chapters/13 Getting grammaticality wrong} % Phase 4 rebuild
+\input{chapters/99 Coda}                         % unnumbered coda; Phase 4 scaffold
 
 \backmatter
 
@@ -95,15 +107,15 @@
 
 % Files no longer in the build sequence (preserved on disk for reference;
 % see notes/phase4-prep.md for the reasoning):
-%   chapters/03 not enough.tex          (folded into chapters/02 Gradient grammaticality.tex in Phase 2)
-%   chapters/04 morality.tex            (merged into chapters/_09 whose grammar.tex)
-%   chapters/06 politics.tex            (merged into chapters/_09 whose grammar.tex)
+%   chapters/03 not enough.tex          (folded into chapters/03 Degrees of wrongness.tex in Phase 2)
+%   chapters/04 morality.tex            (merged into chapters/08 Whose grammar.tex)
+%   chapters/06 politics.tex            (merged into chapters/08 Whose grammar.tex)
 %   chapters/07 generativeG.tex         (cut; fold any salvage into ch 02 if useful)
 %   chapters/08 coordination.tex        (cut; fold into ch 03 if useful)
-%   chapters/09 non-grammatical.tex     (parts may feed new ch 5; mostly cut)
+%   chapters/09 non-grammatical.tex     (parts may feed active chapters; mostly cut)
 %   chapters/11 neurolinguistics.tex    (cut — was an 8-line stub)
-%   chapters/14 fashion.tex             (merged into chapters/_09 whose grammar.tex)
-%   chapters/16 codeswitching.tex       (merged into chapters/_09 whose grammar.tex)
-%   chapters/18 Swearing.tex            (merged into chapters/_09 whose grammar.tex)
+%   chapters/14 fashion.tex             (merged into chapters/08 Whose grammar.tex)
+%   chapters/16 codeswitching.tex       (merged into chapters/08 Whose grammar.tex)
+%   chapters/18 Swearing.tex            (merged into chapters/08 Whose grammar.tex)
 
 \end{document}

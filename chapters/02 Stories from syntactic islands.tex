@@ -1,0 +1,221 @@
+\chapter{Stories from syntactic islands} \label{sec:extraction-islands}
+The first islands in this book were literal. Those in this chapter are syntactic: locations isolated inside clauses that a word can occupy but can't easily leave.
+
+\section{The sentence that won't come home}
+
+Consider what happens when you try to ask a perfectly ordinary question about a perfectly ordinary sentence. Start with \mention{She doubted the idea that they had seen it.} The thing she doubted was a specific belief; \mention{it} was the thing they had seen. Now try to ask about \mention{it} by replacing it with \mention{what} and moving it forward.
+
+\ea
+\label{ex:island-intro}
+\ea [] {
+    \mention{She doubted the idea \textbf{that they had seen \underline{it}}.}
+    }
+\ex [] {
+    \mention{She doubted the idea \textbf{that they had seen \underline{what}}?}
+    }
+\ex [*] {
+    \mention{\underline{What} did she doubt the idea \textbf{that they had seen \underline{~~~}}?}
+    }
+\z\z
+
+Upon reaching \mention{the idea} in (\ref{ex:island-intro}c), we stumble. The thread of the sentence starts to unravel. We may read on, hoping that a solution will present itself. We may go back and check if we'd misread. At some point we conclude that this sentence is just ungrammatical. The syntax is snarled. It doesn't work.
+
+Not only is it ungrammatical, but it's hard to fathom what it could possibly mean.
+
+This isn't an everyday error like *\textit{How many people was there?} or *\textit{She went school}. Often, we understand such sentences intuitively and can even conjure a quick correction without much thought. But even a good deal of thought may not help us with (\ref{ex:island-intro}c).
+
+This kind of stuck sentence has a name. To see why it's stuck, and what kind of stuck it is, we should meet the person who named it.
+
+\section{The man who named the water}
+
+\term{Syntactic islands} is the name that John Robert Ross, widely known as Haj, gave to this phenomenon. Noam Chomsky had already noticed as early as 1964 that some natural-looking questions just can't be asked: you can ask \mention{What did she see?} but not *\mention{What did she doubt the idea that he had seen?} Ross showed that these failures formed a pattern. His 1967 MIT dissertation, \textit{Constraints on variables in syntax} \citep{Ross1967}, was the rare dissertation that became part of the terrain. It didn't merely add a few exceptions to Chomsky's machinery. It turned scattered failures of extraction into a theory of syntactic borders: domains that dependencies could reach into but not escape from.
+
+
+Ross had a gift for seeing syntactic patterns as scenes of motion. Words got \term{pied-piped}, like Browning's piper leading rats, when one word pulled other material along behind it. Clauses got \term{sluiced}, as if most of the sentence had been washed away and only the question word left behind, e.g., \mention{Someone left. Do you know who \textst{left}?} A verb leaving a coordinated structure left a \term{gap}, e.g., \mention{I chose one, and my sister \textst{chose} the other}. A \enquote{heavy} noun phrase shifted to the end of its sentence under its own weight, e.g., \mention{I gave \textst{the book that I bought last week} to my mom \uline{the book that I bought last week}}. The most consequential of his images involved a body of water that didn't exist, around a phrase that a word couldn't leave.
+
+All this movement was to be done by the syntactic machinery that Chomsky and his followers, Ross among them, were conjuring. And so, when they prepended an asterisk to a sentence like *\mention{What did she doubt the idea that he had seen?}, they weren't merely reporting that it sounded wrong. They were saying the syntax couldn't have produced it. The mark was a structural verdict.
+
+\section{Learning the line}
+
+We don't usually think of words moving around, but compare \mention{\underline{What} did they see?} with \mention{They saw \underline{what}?} \mention{They saw what} might sound wrong, but you could ask it if I suddenly blurted out, \textit{they saw it}, without providing any context.
+
+The important thing to notice is that the position of \mention{what} has changed. The first question, the normal one, starts with \mention{what}, but in a sense \mention{what}'s location in the second question, at the end, is its natural home. We say, \mention{I see it}, not \mention{it I see}. First comes a verb (\mention{see}), then the thing seen. So, we could think about \mention{what} leaving its natural position after \mention{see} and appearing instead at the beginning of the sentence. This becomes more apparent when the sentences are displayed one below the other, as in (\ref{ex:extraction-intro}).
+
+\ea
+\label{ex:extraction-intro}
+\ea [] {
+    \mention{They saw \underline{it}.}
+    }
+\ex [] {
+    \mention{They saw \underline{what}?}
+    }
+\ex [] {
+    \mention{\underline{What} did they see \underline{~~~}?}
+    }
+\z\z
+
+In (\ref{ex:extraction-intro}c), the \mentionhead{\underline{~~~}} shows the position that \mention{what} left.
+
+Syntactic islands don't crop up all that often. It's not just a matter of adding in a few extra bits and you've got an island. Consider (\ref{ex:non-island}), where \mention{what} has no problem leaving its home spot and appearing at the front.
+
+\ea
+\label{ex:non-island}
+\ea [] {
+    \mention{She doubted that I had seen \underline{it}.}
+    }
+\ex [] {
+    \mention{She doubted that I had seen \underline{what}?}
+    }
+\ex [] {
+    \mention{\underline{What} did she doubt that I had seen \underline{~~~}?}
+    }
+\z\z
+
+And we can keep adding on without tripping up.
+
+\ea
+\label{ex:non-island-deep}
+\ea [] {
+    \mention{She doubted that I had heard that you had seen \underline{it}.}
+    }
+\ex [] {
+    \mention{She doubted that I had heard that you had seen \underline{what}?}
+    }
+\ex [] {
+    \mention{\underline{What} did she doubt that I had heard that you had seen \underline{~~~}?}
+    }
+\z\z
+
+This contrast is Ross's problem in miniature. The bad sentence in (\ref{ex:island-intro}c) isn't just odd. It's bad beside a nearly identical sentence that works fine. Ross's move was to treat that difference as a clue. His dissertation didn't offer a list of impossible questions; it drew a map of failed escape routes and asked what sort of border had been crossed.
+
+\section{What kind of border is this?}
+
+That pattern cried out for explanation. A good explanation has to do more than label the bad cases. It has to say why some long-distance questions pass so easily while others collapse. It should cover more than one island type, leave room for differences across languages, predict new cases, and stay simple enough to be worth believing.\footnote{Discourse constraints may also limit long-distance dependencies in English and French (Winckel et al. 2025). Chapter 8 returns to this issue.} % TODO: verify source -- add Winckel et al. 2025 to localbibliography.bib
+
+The temptation is to take the asterisk at face value. The failure in (\ref{ex:island-intro}c) feels hard and general. It's not about politeness, schooling, register, or situation. It feels structural. And so it looks like the asterisk is doing pure syntactic work: marking a sentence that the grammar simply couldn't have produced.
+
+But a hard case can teach the wrong lesson. Once we've found a border, we still have to ask what kind of fact the border records. Is it architectural, interpretive, conventional, social, processing-based, or some mixture of these?
+% EDITORIAL-HPC: Later synthesis needs to classify these as levels/channels,
+% not just as a list. Failed dependency and failed form-meaning pairing are
+% candidates for grammaticality proper; social and processing effects may be
+% detector outputs or neighbouring couplings.
+
+Ross himself wasn't sure. The man who gave the formalist program its most architectural-looking border later moved toward a view in which syntax and meaning couldn't be cleanly separated \citep{Harris2021}. He called his own approach \term{Semantax}, on the conviction that syntax and semantics interpenetrate inseparably. The man who named the islands turned out to think the asterisks his discovery licensed didn't mean what most linguists took them to mean.
+
+The chapter's question, then, is whether the asterisk in front of (\ref{ex:island-intro}c) records one fact or several.
+
+\section{The old word \mention{ungrammatical}}
+
+The word itself gives a hint. Grammar is a conventional system linking what's said to what's meant. The link runs both ways: form constrains meaning, and meaning constrains form \citep[371]{Futrell2020}. % TODO: verify source -- Futrell 2020 p. 371
+
+When \mention{ungrammatical} entered English in 1654, it didn't start as a complaint about word order. It started as a complaint about meaning.
+
+\begin{quote}
+    It seems a great folly to declaim against us for denying the literal, natural sense, and yet that themselves should expound it in a sense which suffers a violence and a most unnatural, \uline{ungrammatical} torture; for if they may change the words from the right sense and case to the oblique and indirect, why may not we?\hfill\citep{taylor1654real}
+\end{quote}
+
+Taylor's phrase doesn't accuse a sentence of being malformed. It accuses an interpretation of forcing a grammatical form to carry a meaning it doesn't normally bear. The torture is interpretive. The earliest known English use of \mention{ungrammatical} already links form to meaning. It isn't a complaint about arrangement alone; it's a complaint that the arrangement has been made to say the wrong thing.
+
+That gives us a way to read our island sentence. *\mention{What did she doubt the idea that they had seen?} isn't simply mis-arranged; the arrangement is fine piece by piece. What fails is the dependency between \mention{what} and the place inside the bracketed clause where the question would have had to be answered. The asterisk marks a failed form-meaning pairing as much as it marks a failed structure.
+
+% TODO: the broader history of grammar writing (Fisher, Lowth, Brown, plagiarism, exercises in bad English) belongs in chapter 9 (Whose grammar?); the cut material is preserved in _01-backup-2026-05-11.tex.
+
+\section{When wrongness becomes hearable}
+
+Form-meaning pairings aren't fixed forever. What sounded wrong yesterday may sound right tomorrow.
+
+In 1865, Richard Wagner's \enquote{Tristan und Isolde} premiered with a chord that seemed to hang in the air without resolving. The Tristan chord, F, B, D\(\sharp\), and G\(\sharp\), made no ordinary sense to many listeners. Hector Berlioz, who had received an early copy of the score from Wagner, found the Prelude confounding, noting, \enquote{There is no theme other than a kind of chromatic moan, filled with dissonant chords whose long appoggiaturas in place of the true harmonic note further intensify the painfulness.} % TODO: verify source -- Berlioz quote, primary source À travers chants (1862)
+
+But even though it made no sense in the framework of musical harmony, some listeners were able to find a kind of narrative sense in it. For them, the unfulfilled tension mirrored the opera's story of unrequited love. This innovative use of dissonance disrupted the conventions of Western music. Wagner's composition didn't just utilise the existing musical language; it expanded it, challenging the ear and setting the stage for the even more radical departures from tonality that the twentieth century would bring.
+
+English speakers had done much the same with stacked adjectives. Phrases like \mention{a long long road} hadn't always been hearable; the bridge through Old English compound nouns let speakers reanalyse what had once been one structure as two. The community learned to hear the doubled adjective in front of a noun. It still hasn't learned to hear the same doubling after a verb.
+
+Some linguists read the asterisk on *\mention{What did she doubt the idea that they had seen?} as math: there's a rule, the sentence breaks it, that's the end. Others read it the way audiences came to read the Tristan chord: as a piece of dissonance that a community hadn't yet learned to hear. What's wrong now might not always be.
+% EDITORIAL-HPC: Strong passage, but protect the analogy. Some patterns can be
+% conventionalized under exposure; others may resist because the dependency
+% cannot be stably recovered. The chapter should not imply that all structural
+% violations are merely future conventions.
+
+Ross's own career runs both sides of this debate. The 1967 dissertation made the arithmetic reading look right; his later work, \term{Semantax}, sits on the Tristan side. The man who gave the formal program its cleanest evidence didn't end up believing the cleanness was the lesson. Through that later lens, the asterisk on *\mention{What did she doubt the idea that they had seen?} isn't simply a structural verdict. It may also be a verdict on meaning.
+
+\section{One form, more than one meaning}
+
+A string of words can have more than one structure, and so it can have more than one meaning. Consider the sentence \mention{The farmer sold his prized bull with a tear in his eye} (Figure \ref{fig:cowPP}).
+
+The phrase doing the work is \mention{with a tear in his eye}. \mention{With} is a preposition, and \mention{with a tear in his eye} is a \textsc{preposition phrase} (a PP). The ambiguity comes from whether the PP attaches to the verb phrase headed by \mention{sold}, so that it was with a tear in his eye that he sold the bull (the image on the left), or whether it attaches to the noun phrase headed by \mention{bull}, with the bull doing the crying (the image on the right).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{figures/cow.png}
+    \caption{The farmer sold his prized bull with a tear in his eye. Image by DALL$\cdot$E.}
+    \label{fig:cowPP}
+\end{figure}
+
+Linguists use a graph called a \textsc{syntax tree} to depict these kinds of structural relationships. The one for selling tearfully is Figure \ref{tree:tearful-farmer}. Starting at the top, it shows that the whole sentence is a clause, and this clause has two main parts: the subject on the left (the noun phrase (NP) \textit{the farmer}) and the head verb phrase (VP) on the right. The PP functions as a modifier in the VP in this interpretation.
+
+\begin{figure}
+    \centering
+    \begin{forest}
+        where n children=0{% for each terminal node
+           font=\itshape, 			% italics
+            tier=word          			% align at the "word" tier (bottom)
+          }{%								% no false conditions, so empty
+          },
+        [Clause
+        	[\Node{Subject}{NP}[the farmer,roof]]
+        	[\Head{VP}
+        		[\Head{VP}[sold his prized bull,roof]]
+        		[\Node{Modifier}{PP}[with a tear in his eye,roof]]
+        	]
+        ]
+    \end{forest}
+    \caption{The structure showing the PP attached in the VP with the tearful farmer interpretation.}
+    \label{tree:tearful-farmer}
+\end{figure}
+
+The tree for the tearful bull is Figure \ref{tree:tearful-cow}. Again, the clause has two main parts, but this time, the \mention{with a tear in his eye} PP is tucked inside the \mention{bull} NP. The triangles show that some structural details have been omitted for simplicity.
+
+\begin{figure}
+    \centering
+    \begin{forest}
+        where n children=0{% for each terminal node
+           font=\itshape, 			% italics
+            tier=word          			% align at the "word" tier (bottom)
+          }{%								% no false conditions, so empty
+          },
+        [Clause
+        	[\Node{Subject}{NP}[the farmer,roof]]
+        	[\Head{VP}
+        		[\Head{V}[sold]]
+        		[\Node{Obj}{NP}[his prized bull with a tear in his eye,roof]]
+        	]
+        ]
+    \end{forest}
+    \caption{The structure showing the PP attached in the NP with the tearful bull interpretation.}
+    \label{tree:tearful-cow}
+\end{figure}
+
+The farmer sentence is grammatical because one form can pair with more than one meaning. Our island sentence fails the other way. It's not that the form is ambiguous; it's that the form isn't paired with any stable meaning at all. The dependency between \mention{what} and the place inside the bracketed clause can't be recovered, so no interpretation comes home. Whether that failure is the kind a community could ever learn to hear is the next question.
+
+\section{Some islands are rock}
+
+Some limits sit closer to the architecture of a language than to etiquette. The Left Branch Condition is a useful warning case. English is bad at pulling a modifier or possessor out of the left edge of a noun phrase: *\mention{How big did you buy a house?} is much worse than \mention{How big a house did you buy?}
+
+That doesn't mean every language draws the same boundary. Serbo-Croatian, for instance, permits left-branch extraction English forbids. But repeated exposure won't necessarily turn every structural mismatch into a new convention. Some violations are awkward because we aren't used to them. Others may be awkward because the grammar gives us no stable way to recover the intended dependency.
+
+Whether the island in (\ref{ex:island-intro}c) is rock or surface dissonance is a question the chapter doesn't have to settle. The book does, eventually. For now, what matters is that the asterisk doesn't tell us which.
+
+\section{The island seen again}
+
+Grammaticality can't be found in the laws of physics. It's an emergent property. But if you believe in people and puppies, in the scent of rain on hot asphalt, in the first blooming lilac of spring, in orbits and orders and other such stuff, then there's every reason to believe that grammaticality is real.
+
+That brings us back to Ross. His achievement was to make one kind of grammatical boundary visible. The danger was that the boundary looked so crisp on the page that it encouraged a larger conclusion: grammaticality itself might be syntax in its pure structural form, and the asterisk might apply, or fail to apply, in the abstract, for human language in general. The analysis worked so well that it opened a garden path.
+
+This book starts from the suspicion that the conclusion was too quick. The asterisk in front of *\mention{What did she doubt the idea that they had seen?} marks a real failure, but the failure may be of several kinds at once: a failed dependency, a failed form-meaning pairing, a social expectation, a processing collapse, or a convention not yet learned. Grammaticality is real in the same sense Ross's islands are real: a pattern stable enough to guide inquiry, but never separable from the uses, speakers, histories, and situations that make the pattern matter.
+% EDITORIAL-HPC: This is the core tension with the HPC book. "Failure may be of
+% several kinds" should remain about the asterisk and badness, not grammaticality
+% proper. Revise toward: grammaticality is the maintained form-value coupling;
+% the asterisk can also record detector noise, social conditioning, processing
+% strain, or metalinguistic enforcement.
+
+The sentence is still bad. But its badness no longer looks simple.

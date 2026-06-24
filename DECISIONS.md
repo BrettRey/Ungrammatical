@@ -54,3 +54,25 @@ submission is planned. Cleanup pass: deleted the langsci orphans
 to `local-packages-extra.tex` so they continue to compile. CLAUDE.md,
 AGENTS.md, GEMINI.md, STATUS.md, README.md updated to drop LSP/HPLS
 references; CC-BY licensing retained.
+
+2026-05-21 — Adopted the 12 May `main2` structural fork as the
+canonical book structure. Reason: it gives the book a cleaner large-scale
+arc by moving from the asterisk as a bundle of judgments, to the felt
+experience of grammaticality, to social distribution and authority, and
+then to a synthesized account tested by the independent-relative
+`\mention{whose}` case. The full `\mention{whose}` discussion now belongs
+in Chapter 13 as the culminating worked example of expert grammaticality
+judgement going wrong.
+
+2026-05-21 — Kept only short embedded Chapter 5 recoveries from the older
+draft: singular `\mention{they}` and doubled `\mention{is}`. Reason: those
+examples serve the phenomenology-of-judgement argument without letting
+Chapter 5 become a second structure for the whole book. The longer
+`Grammar and the Sacred`, Barrett, and neuroscience sections were not
+restored as Chapter 5 sections; usable neural/predictive-processing
+material is represented in Chapter 12.
+
+2026-05-21 — Renamed Part III from `Whose grammar` to `Whose grammar
+counts?`. Reason: this avoids blunt duplication with Chapter 8's `Whose
+grammar?` title while keeping the social question available before the
+literal `\mention{whose}` case returns in Chapter 13.

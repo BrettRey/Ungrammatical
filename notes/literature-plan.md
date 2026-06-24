@@ -66,7 +66,7 @@ items below belong there.
 - Bever 1970 (ch 4 / ch 6)
 - Bolinger 1972 (optional)
 - Schleicher / Sweet primary sources (ch 2; ample secondary in HPC book and
-  in `chapters/00 introduction.tex`)
+  in `chapters/00 The asterisk.tex`)
 
 Sourcing the ch 9 cluster — or finding adequate alternates — is the most
 leveraged external acquisition before drafting begins.
@@ -85,12 +85,12 @@ Reduplication, *long long* construction, classroom-as-scene.
 - `@Fischer2006a` — position of adjectives in Middle English
 
 ### Brett's own writing (lift directly)
-- `chapters/21 A long long way.tex` — **the load-bearing original**. Hollies
+- `chapters/01 A long long road.tex` — **the load-bearing original**. Hollies
   lyrics, Pullum's Turkish woman example, classroom observations, Old/Middle
   English history of intensificatory reduplication, Japanese / Russian /
   Jamaican Creole / North-East Ambae cross-linguistic data, the *much* /
   *blackbird* / *burggeat* etymology. Lifts wholesale.
-- `chapters/00 introduction.tex` (lines 92-116, the "FANBOYS" Toronto-arrival
+- `chapters/00 The asterisk.tex` (lines 92-116, the "FANBOYS" Toronto-arrival
   / *English, Jack* origin story) — small lift only if Brett wants a
   teacher's-eye opening.
 
@@ -125,8 +125,9 @@ Thin direct coverage. What's relevant:
   cross-linguistic reduplication source would strengthen it.
 
 ### Priority recommendation
-The chapter is essentially in hand from `chapters/21`. Only add: (a) a
-Schneider/Mufwene reduplication citation if Brett wants the cross-linguistic
+The chapter is essentially in hand from
+`chapters/01 A long long road.tex`. Only add: (a) a Schneider/Mufwene
+reduplication citation if Brett wants the cross-linguistic
 generalization to land harder, and (b) Trudgill 2010 on low-contact
 typology for the framing footnote.
 
@@ -151,11 +152,11 @@ History of philology, Schleicher, Sweet, the asterisk-as-mark.
 - `@Newmeyer2003` — generative-syntax background
 
 ### Brett's own writing (lift directly)
-- `chapters/00 introduction.tex` — **load-bearing**. Schleicher (1821),
+- `chapters/00 The asterisk.tex` — **load-bearing**. Schleicher (1821),
   Sweet, the *some Englishmen* / *Englishmen are some* example, Householder
   1973 footnote, the weird-CGEL-asterisk set piece (lines 18-28). Lift
   wholesale; cut the autobiographical "FANBOYS" tail.
-- `chapters/01.tex` — Jeremy Taylor 1654 first-use, Goold Brown 1851 set
+- `chapters/02 Stories from syntactic islands.tex` — Jeremy Taylor 1654 first-use, Goold Brown 1851 set
   piece, Ann Fisher 1745 (first by a woman; first false-syntax asterisks),
   Robert Lowth, Noah Webster, 17C-18C plagiarism. **Move Fisher / Taylor /
   Lowth from ch 01 to new ch 2** as the asterisk-and-philology backbone.
@@ -196,7 +197,7 @@ Thin on the asterisk specifically:
 
 ### Priority recommendation
 Strong existing coverage. Move the Fisher / Taylor / Lowth / Brown material
-from `chapters/01.tex` to new ch 2; add Householder 1973 to the bib; and
+from `chapters/02 Stories from syntactic islands.tex` to new ch 2; add Householder 1973 to the bib; and
 consider Robins or Morpurgo Davies if you want a fuller comparative-method
 backstory. The HPC book opening of ch 15 is the quote to lift verbatim
 ("the asterisk is the most common symbol in syntax...").
@@ -215,7 +216,7 @@ Ross 1967, Chomsky island constraints, pragmatic constraints (Cuneo and Goldberg
 - `@Chomsky1957` / `@Chomsky1965` — foundational generativism
 
 ### Brett's own writing (lift directly)
-- `chapters/01.tex` — **load-bearing**. Haj Ross MIT-1966 framing, basic
+- `chapters/02 Stories from syntactic islands.tex` — **load-bearing**. Haj Ross MIT-1966 framing, basic
   island demonstrations, Boeckx 2012 island-repair quote, Tristan chord /
   Herbie Hancock parallel, *farmer sold his prized bull* PP-attachment
   ambiguity figure, Cuneo & Goldberg 2023 footnote on discourse-based
@@ -299,7 +300,7 @@ Sprouse, Featherston, fuzzy/gradient acceptability, Tristan chord.
 - `@Just1993` — pupillometric sentence processing
 
 ### Brett's own writing (lift directly)
-- `chapters/02 Gradient grammaticality.tex` — **load-bearing**. Sampson's
+- `chapters/03 Degrees of wrongness.tex` — **load-bearing**. Sampson's
   "all is grammatical", Chomsky's binary view, generative toy grammar, the
   *probable to play* puzzle, gradient examples (a-j) of *the big black dog
   fetched sticks*, prototype theory (Rosch), the *worth* example, diachronic
@@ -307,7 +308,7 @@ Sprouse, Featherston, fuzzy/gradient acceptability, Tristan chord.
 - `chapters/03 not enough.tex` — folds in here per restructure plan. Russian
   dolls, Riau Indonesian, Pirahã, satiation, Donaldson on dangling modifiers,
   Osman *Trouble more determined* example.
-- `chapters/01.tex` (sec:tristan) — Tristan chord and Herbie Hancock as the
+- `chapters/02 Stories from syntactic islands.tex` (sec:tristan) — Tristan chord and Herbie Hancock as the
   metaphor for "ungrammatical-as-unfamiliar".
 - `papers/Grammaticality_de_idealized/main.tex` — **major source**. MVMG
   framework: structural viability, interpretive coherence, situational
@@ -372,8 +373,9 @@ Sprouse, Featherston, fuzzy/gradient acceptability, Tristan chord.
 
 ### Priority recommendation
 Strong drafted material plus rich literature. Start drafting from
-`chapters/02` plus the MVMG / detectors papers. Pull `aarts2007`,
-`baderhaussler2010`, `sprouse-etal-2016`, and the `phillips-wagers-lau-2011`
+`chapters/03 Degrees of wrongness.tex` plus the MVMG / detectors papers.
+Pull `aarts2007`, `baderhaussler2010`, `sprouse-etal-2016`, and the
+`phillips-wagers-lau-2011`
 illusion paper into `localbibliography.bib`. The HPC book ch 5 basin
 diagram and ch 15 detector framing are the visual / argumentative anchors.
 
@@ -391,14 +393,14 @@ Dennett's real patterns, *probable to play*, Caxton 1481, distributional pattern
 - `@cgel` — CGEL
 
 ### Brett's own writing (lift directly)
-- `chapters/10 real patterns.tex` — **load-bearing**. *Amelie showed Basil
+- `chapters/04 Real patterns.tex` — **load-bearing**. *Amelie showed Basil
   Clara* and cross-linguistic role-shuffling (Azerbaijani, Hixkaryana,
   English imperative). Spray/load alternations. Hurford 2012 on
   *likely*/*probable*. **The Bert Bell 1947 NFL injury report set piece
   for *probable to play*** — original archival research, one of Brett's
   best set pieces. *November the fifth* / *the fifth of November* /
   *October the first* historical EEBO data. Chris Anderson "long tail".
-- `chapters/12 Becoming ungrammatical.tex` (lines 22-35) — the Caxton 1481
+- `chapters/06 Becoming ungrammatical.tex` (lines 22-35) — the Caxton 1481
   *much fair* / *much great* / *much noble* set piece. Lift to ch 5.
 - `chapters/09 non-grammatical.tex` — Hurford / Riau Indonesian / Bloom
   *Mommy sock* / "logogeny" two-stage development.
@@ -485,7 +487,7 @@ development thread.
 - `@thisamericanlife_748` — the Emrys / singular *they* passage
 
 ### Brett's own writing (lift directly)
-- `chapters/05 intuitions.tex` — **load-bearing**. Hankamer-Postal "Whose
+- `chapters/05 How grammar feels.tex` — **load-bearing**. Hankamer-Postal "Whose
   gorilla?" squib, OED examples 1325-2018, *whose wasn't working* friends/
   family survey, Pullum on reflective equilibrium (Goodman, Rawls),
   Donaldson on dangling modifiers, singular *they* (Mia's roommate Sasha;
@@ -558,8 +560,8 @@ The metacognitive philosophy is well-covered; the linguistic side shallower.
 
 ### Priority recommendation
 This is one of the most material-rich chapters. Brett has the *whose* arc
-in `chapters/05` plus three portfolio papers feeding it. Pull
-`Scott-Phillips-2025-intuition` from `literature/` (it's foundational and
+in `chapters/05 How grammar feels.tex` plus three portfolio papers feeding
+it. Pull `Scott-Phillips-2025-intuition` from `literature/` (it's foundational and
 cleanly maps the chapter), the `nob2026` Schwitzgebel/Mugg/Smithies papers
 for the philosophy of belief, and the HPC book ch 15 §2 detector framing.
 Trim the ch 5 prose by two-thirds as the restructure plan demands.
@@ -576,7 +578,7 @@ Diachronic change, *very* / *much* alternation, grammaticalisation.
 - `@CastilloGonzalez2007` — corpus-based contractions
 
 ### Brett's own writing (lift directly)
-- `chapters/12 Becoming ungrammatical.tex` — **load-bearing**. *Verray* /
+- `chapters/06 Becoming ungrammatical.tex` — **load-bearing**. *Verray* /
   *very* late-13C journey, *much* < OE *micel*, Caxton 1481 set piece (move
   out to ch 5 per restructure plan), EEBO frequency chart of *very* vs
   *much* 1470s-1690s, NPI behaviour of *much*, Jespersen's-cycle French
@@ -654,7 +656,8 @@ Diachronic change, *very* / *much* alternation, grammaticalisation.
   source (not in any of the four sources).
 
 ### Priority recommendation
-This chapter has the most concentrated existing material. Lift `chapters/12`
+This chapter has the most concentrated existing material. Lift
+`chapters/06 Becoming ungrammatical.tex`
 (after excising the LLM splice), add Breban and Davidse 2016 on *very* as
 the central source, pull in the Bybee 2010 chapters from `literature/`, and
 use HPC book ch 2 fig 2.1 as the visual. Israel 2011 is already in the bib.
@@ -680,7 +683,7 @@ Working-linguist analysis, *Rubymar*, Pullum/Reynolds correspondence, *whose* se
 - `@Heisenberg1927` — for the watershed-physics analogy
 
 ### Brett's own writing (lift directly)
-- `chapters/15 what's ungrammatical.tex` — **load-bearing**. *I go there
+- `chapters/07 What's ungrammatical.tex` — **load-bearing**. *I go there
   yesterday* clash, Old French → Modern French passé composé development,
   *the horse raced past the barn fell*, default-attribution argument,
   vowel-perception watershed analogy, trilled /r/ iconicity, politeness via
@@ -742,10 +745,11 @@ Working-linguist analysis, *Rubymar*, Pullum/Reynolds correspondence, *whose* se
 - Kuperberg predictive-processing primary source.
 
 ### Priority recommendation
-Strong drafted material in `chapters/15`. Add Pullum 2014 (*Fear and
-loathing*) and Pullum 2009 (lexical categorisation) from Mendeley, and
+Strong drafted material in `chapters/07 What's ungrammatical.tex`. Add
+Pullum 2014 (*Fear and loathing*) and Pullum 2009 (lexical categorisation)
+from Mendeley, and
 the McCawley/Morgan and Kuperberg primary citations. The chapter's
-*whose* analysis (lines 366-631) provides setup for ch 14's resolution.
+*whose* analysis (lines 366-631) provides setup for ch 13's resolution.
 
 ---
 
@@ -901,7 +905,7 @@ Dialect, contact, dialect grammaticality.
 - `@Lewis1983` — *Languages and language*
 
 ### Brett's own writing (lift directly)
-- `chapters/13 Across language boundaries.tex` — **load-bearing**. Bill
+- `chapters/09 Across language boundaries.tex` — **load-bearing**. Bill
   Withers *ain't no sunshine*, Singlish *Wah lau!*, AAE *ain't nobody come
   to help us* analysis, remote-stressed BIN (Spears 2015), Cantone 2009
   bilingual adjective-position, Putnam & O'Hern 1955 Washington alley study,
@@ -977,15 +981,17 @@ Dialect, contact, dialect grammaticality.
 - `@Baxter2009` — Trudgill on New Zealand English
 
 ### Gaps — needs external sourcing
-- Putnam & O'Hern 1955 Washington alley study (in `chapters/13`).
+- Putnam & O'Hern 1955 Washington alley study (in
+  `chapters/09 Across language boundaries.tex`).
 - Henry 1995 *Belfast English* (cited in HPC book).
 - Wolfram 2015 (cited in HPC book).
 - A primary AAVE grammar source if the chapter wants one (Green 2002 is
   standard).
 
 ### Priority recommendation
-Strong existing material. Lift `chapters/13` and pull the Sandler /
-Senghas / Goldin-Meadow sign-language papers from `literature/` for the
+Strong existing material. Lift `chapters/09 Across language boundaries.tex`
+and pull the Sandler / Senghas / Goldin-Meadow sign-language papers from
+`literature/` for the
 modality material. Haspelmath 2010 from `literature/` is essential for the
 comparative-concepts framing. Add Trudgill 2010 and Aikhenvald 2003 from
 Mendeley.
@@ -1006,7 +1012,7 @@ Moro, UG-imposed limits, formal constraints, learnability.
 - `@Comrie1981` — *Language Universals and Linguistic Typology*
 
 ### Brett's own writing (lift directly)
-- `chapters/17 impossible languages.tex` — **load-bearing**. Sampson 1975
+- `chapters/10 Impossible languages.tex` — **load-bearing**. Sampson 1975
   prime-number / even-occurrence languages, Moro 2016 definitions, Kallini
   2024 figure, Chomsky 1957 *colorless green ideas* / *furiously sleep
   ideas green colorless*, Pereira 2000 bigram model, Parkvall *Limits of
@@ -1080,7 +1086,8 @@ Moro, UG-imposed limits, formal constraints, learnability.
   bias-not-UG accounts
 
 ### Gaps — needs external sourcing
-- The Parkvall *Limits of language* book referenced in `chapters/17`.
+- The Parkvall *Limits of language* book referenced in
+  `chapters/10 Impossible languages.tex`.
 - Begus 2026 sperm-whale codas paper from HPC book ch 15.
 
 ### Priority recommendation
@@ -1106,7 +1113,7 @@ Gibson dependency-distance, Futrell, processing-vs-grammar.
 - `@427map` — OpenStreetMap of Hwy 427 (the highway figure)
 
 ### Brett's own writing (lift directly)
-- `chapters/19 efficiency.tex` — **load-bearing**. Futrell 2020 efficiency
+- `chapters/11 Communicative efficiency.tex` — **load-bearing**. Futrell 2020 efficiency
   hypothesis, dependency locality, highway-exit analogy, *take a break* /
   *with a break* head-first ordering, Japanese head-last counterpart, the
   ungrammatical *I take a rest I take part...*, Highway 427 contralateral
@@ -1173,8 +1180,8 @@ Gibson dependency-distance, Futrell, processing-vs-grammar.
 
 ### Priority recommendation
 This is the "honour the functionalist alternative just before the synthesis"
-chapter (per restructure plan). Lift `chapters/19` plus
-`Reply_to_Gibson_on_dependency_syntax` as the major argumentative source.
+chapter (per restructure plan). Lift `chapters/11 Communicative efficiency.tex`
+plus `Reply_to_Gibson_on_dependency_syntax` as the major argumentative source.
 Pull `gibson_2026_dependency_syntax`, `Fedorenko/Piantadosi/Gibson 2024`, and
 the Kirby/Raviv emergence cluster from `literature/`. The chapter ends
 just before HPC is named in ch 13.
@@ -1398,14 +1405,14 @@ The Hankamer-Postal *whose* arc as the paradigm case.
 - `@Schindler2020a` — *Linguistic Intuitions*
 
 ### Brett's own writing (lift directly)
-- `chapters/20 Getting grammaticality wrong.tex` — currently a 25-line stub.
+- `chapters/13 Getting grammaticality wrong.tex` — currently a 25-line stub.
   Old English *þe*, *þe his* construction, Middle English emergence of
   relative *who*. **The arc itself isn't here yet — needs to be rebuilt**.
-- `chapters/05 intuitions.tex` — has the *whose* development thread Brett
+- `chapters/05 How grammar feels.tex` — has the *whose* development thread Brett
   embeds in ch 6. **Resolution moves to ch 14**: OED 1325, friends/family
   survey, LLM ratings, *Wikipedia* edit, Cambridge grammar oblique-genitive
   example.
-- `chapters/15 what's ungrammatical.tex` (lines 366-631) — detailed *whose*
+- `chapters/07 What's ungrammatical.tex` (lines 366-631) — detailed *whose*
   analysis: topicality conditions, double anaphora, cross-linguistic tour
   (German *dessen*, Spanish *cuyo*, Persian, Japanese). **Turn this into
   the arc's resolution**, with Hankamer-Postal as "we couldn't see it from
@@ -1487,19 +1494,21 @@ The Hankamer-Postal *whose* arc as the paradigm case.
   working file, not a source.
 
 ### Priority recommendation
-This chapter is built around the *whose* arc that runs from ch 06 (setup)
-to ch 14 (resolution). **Pull**: the *whose* analysis from `chapters/15`
+This chapter is built around the *whose* arc that runs from ch 05 (setup)
+to ch 13 (resolution). **Pull**: the *whose* analysis from
+`chapters/07 What's ungrammatical.tex`
 (lines 366-631), the OED 1325 evidence and friends/family survey from
-`chapters/05`, the Independent_relative_whose portfolio papers, the HPC
-book ch 6 §6.5 academic dressing, and the LLM-grammaticality cluster from
+`chapters/05 How grammar feels.tex`, the Independent_relative_whose
+portfolio papers, the HPC book ch 6 §6.5 academic dressing, and the
+LLM-grammaticality cluster from
 `literature/` (Cuneo et al. 2025 GPT-4 paper; Qiu/Duan/Cai 2025; Hu et al.
 2024). **Lift the diagnosis from HPC book ch 15 §2**: Hankamer & Postal's
 detector was firing on a thin posterior. The chapter is one of the three
-heaviest writes (synthesis ch 13; whose grammar ch 9; this).
+heaviest writes (synthesis ch 12; whose grammar ch 8; this).
 
 ---
 
-## Ch 15: Coda
+## Coda
 
 Echo of ch 1.
 
@@ -1507,9 +1516,9 @@ Echo of ch 1.
 - `@cgel` — CGEL (background)
 
 ### Brett's own writing (lift directly)
-- `chapters/21 A long long way.tex` — return to the Hollies lyric, the
+- `chapters/01 A long long road.tex` — return to the Hollies lyric, the
   classroom, *long long* / *the road is long long*. (The lift is partial —
-  most of ch 21 is in new ch 1.)
+  most of old ch 21 is in ch 1.)
 - No specific portfolio paper feeds this; brief recapitulation.
 
 ### HPC book (academic backbone)
@@ -1534,7 +1543,8 @@ None needed beyond what ch 1 supplies.
 None.
 
 ### Priority recommendation
-Coda is brief and reflective; lift from `chapters/21` what wasn't moved
+Coda is brief and reflective; lift from `chapters/01 A long long road.tex`
+what wasn't moved
 into ch 1. The closing register echoes HPC book ch 18 §18.6 (categories
 real at the right grain) but the trade coda isn't this chapter — keep it
 short and personal.
