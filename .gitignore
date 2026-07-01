@@ -49,3 +49,9 @@ Thumbs.db
 
 # Build directory
 build/
+
+# Local literature PDFs live in the central literature store.
+literature/*.pdf
+literature/**/*.pdf
+**/literature/*.pdf
+**/literature/**/*.pdf
